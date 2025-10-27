@@ -60,6 +60,7 @@ class GraphSearchTool:
 
         # Initialize Neo4j driver
         try:
+            logger.info(f"Attempting to connect to Neo4j at: {self.uri}")
             self.driver = GraphDatabase.driver(
                 self.uri,
                 auth=(self.username, self.password)
