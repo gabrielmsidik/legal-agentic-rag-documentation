@@ -1,5 +1,6 @@
 """
 Vector search tool using Pinecone for semantic search and chunk retrieval.
+Uses Pinecone's llama-text-embed-v2 embeddings for query embedding generation.
 """
 
 import logging
@@ -7,6 +8,7 @@ from typing import List, Union, Dict, Any
 from pinecone import Pinecone, ServerlessSpec
 from src.config import config
 from src.models.schemas import Source
+from src.tools.embedding_utils import EmbeddingGenerator
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +25,7 @@ class VectorSearchTool:
         self.pc = Pinecone(api_key=config.PINECONE_API_KEY)
         self.index_name = config.PINECONE_INDEX_NAME
         self.namespace = config.PINECONE_NAMESPACE
+        self.embedding_gen = EmbeddingGenerator()
 
         # Connect to existing index
         try:
@@ -39,8 +42,8 @@ class VectorSearchTool:
         filter_dict: Union[Dict[str, Any], None] = None
     ) -> List[Source]:
         """
-        Perform semantic search using Pinecone's inference API with llama-text-embed-v2.
-        Pinecone automatically generates embeddings when using the inference API.
+        Perform semantic search using Pinecone embeddings.
+        Generates query embedding using Pinecone's llama-text-embed-v2 model (1024 dimensions).
 
         Args:
             query: Natural language query string
@@ -53,20 +56,12 @@ class VectorSearchTool:
         try:
             logger.info(f"Performing semantic search for query: {query[:100]}...")
 
-            # Use Pinecone's inference API to generate embeddings and query
-            # First, generate the embedding using the inference API
-            from pinecone import Pinecone
-            pc = Pinecone(api_key=config.PINECONE_API_KEY)
+            # Generate embedding using Pinecone's embedding API (llama-text-embed-v2)
+            query_embedding = self.embedding_gen.generate_embedding_for_pinecone(query)
 
-            # Generate embedding using Pinecone's inference API
-            embedding_response = pc.inference.embed(
-                model="llama-text-embed-v2",
-                inputs=[query],
-                parameters={"input_type": "query"}
-            )
-
-            # Extract the embedding vector
-            query_embedding = embedding_response.data[0].values
+            if not query_embedding:
+                logger.warning("Failed to generate Pinecone query embedding")
+                return []
 
             # Query Pinecone with the generated embedding
             results = self.index.query(

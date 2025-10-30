@@ -221,7 +221,7 @@ class GraphSearchTool:
     
     def _get_query_embedding(self, query: str) -> Optional[List[float]]:
         """
-        Generate embedding for query text.
+        Generate embedding for query text using Neo4j embeddings (OpenAI).
 
         Args:
             query: Query text to embed
@@ -230,12 +230,13 @@ class GraphSearchTool:
             Embedding vector or None if generation fails
         """
         try:
-            embedding = self.embedding_gen.generate_embedding(query)
+            # Use Neo4j embedding method (OpenAI text-embedding-3-small)
+            embedding = self.embedding_gen.generate_embedding_for_neo4j(query)
             if embedding:
-                logger.debug(f"Generated query embedding of dimension {len(embedding)}")
+                logger.debug(f"Generated Neo4j query embedding of dimension {len(embedding)}")
             return embedding
         except Exception as e:
-            logger.error(f"Failed to generate query embedding: {e}")
+            logger.error(f"Failed to generate Neo4j query embedding: {e}")
             return None
 
     def _search_by_embedding(

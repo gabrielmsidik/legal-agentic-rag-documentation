@@ -226,17 +226,22 @@ class GraphState(TypedDict):
     plan: Union[str, None]               # Agent's plan or next action decision
     response: Union[str, None]           # Final generated answer
     needs_more_info: bool                # Flag to control potential looping
+    intermediate_questions: List[str]    # Generated follow-up questions (NEW)
+    current_query: Union[str, None]      # Current query being searched (original or intermediate) (NEW)
+    iteration_count: int                 # Track iteration number (NEW)
+    workflow_nodes: List[Dict]           # Track execution history of all nodes (NEW)
 ```
 
 #### Agent Graph Nodes
 
 Functions representing steps in the reasoning process:
 
-1. `plan_step` **(LLM Node)**:
+1. `plan_step` **(LLM Node)** - NEW: Now Logged:
 
-    * Input: original_query, intermediate_steps from state.
+    * Input: original_query, intermediate_steps, intermediate_questions from state.
     * Function: Uses gpt-4o-mini to analyze the query and history, deciding the next action (e.g., call vector_search, graph_search, or synthesize_answer).
-    * Updates State: plan (string describing the next action).
+    * NEW: Creates workflow_node entry for complete visibility in API response
+    * Updates State: plan (string describing the next action), workflow_nodes (adds plan_step entry).
 
 2. `route_action` **(Conditional Logic Node)**:
 
@@ -256,57 +261,102 @@ Functions representing steps in the reasoning process:
     * Function: Executes the graph_search tool (see 4.3).
     * Updates State: Appends results to retrieved_context, adds step to intermediate_steps. May update plan if vector_chunk_ids are found.
 
-5. `evaluate_results_node` **(LLM Node)**:
+5. `evaluate_results_node` **(LLM Node)** - UPDATED: Now Evaluates Reranked Sources:
 
-    * Input: original_query, retrieved_context from state.
+    * Input: original_query, retrieved_context (already reranked top-5 sources) from state.
     * Function: Uses gpt-4o-mini to assess if the current context is sufficient to answer the query.
-    * Updates State: needs_more_info (boolean).
+    * NEW: Now evaluates already-reranked top-5 sources (not all sources)
+    * Process:
+        1. Checks if both vector and graph search types were attempted
+        2. Evaluates relevance of reranked sources to the query
+        3. Decides whether to synthesize or generate intermediate questions
+    * Updates State: needs_more_info (boolean), workflow_nodes (adds evaluation details).
 
-6. `synthesize_answer_node` **(LLM Node)**:
+6. `generate_intermediate_question_node` **(LLM Node)** - NEW:
+
+    * Input: original_query, retrieved_context, iteration_count from state.
+    * Function: When evaluation indicates insufficient information, uses gpt-4o-mini to generate 2-3 targeted follow-up questions that address information gaps.
+    * Process:
+        1. Analyzes the original query and current context
+        2. Identifies missing information or unexplored angles
+        3. Generates specific, focused questions for more targeted searches
+        4. Stores questions sequentially for iterative use
+    * Updates State: intermediate_questions (list of generated questions), workflow_nodes (adds execution details).
+
+7. `rerank_results_node` **(Tool Node)** - NEW POSITION: Before Evaluation:
+
+    * Input: retrieved_context from state (all sources from vector and graph search).
+    * Function: Uses Pinecone's reranking API to intelligently rank all retrieved sources and select the top-5 most relevant.
+    * NEW: Now executes BEFORE evaluation (not after)
+    * Process:
+        1. Combines all vector and graph search results
+        2. Reranks using Pinecone's bge-reranker-v2-m3 model
+        3. Selects top-5 most relevant sources
+        4. Logs detailed reranking impact metrics
+    * Updates State: retrieved_context (reranked and filtered to top-5), workflow_nodes (adds reranking details).
+
+8. `synthesize_answer_node` **(LLM Node)**:
 
     * Input: original_query, retrieved_context from state.
-    * Function: Uses gpt-4o-mini with the synthesis prompt (see 4.4) to generate the final response.
+    * Function: Uses gpt-4o-mini with the synthesis prompt (see 4.4) to generate the final response using the top-5 reranked sources.
     * Updates State: response.
 
-#### Agent Graph Edges/Flow
+#### Agent Graph Edges/Flow (Updated: Reranking Before Evaluation)
 
 Defines the sequence and conditional logic:
 
 1.  **Entry Point:** Graph starts at `plan_step`.
+    * NEW: `plan_step` now logs itself to `workflow_nodes` for complete visibility
 2.  **Planning -> Routing:** `plan_step` output goes to `route_action`.
-3.  **Routing -> Tools/Synth:** `route_action` uses **conditional edges**:
+    * If intermediate questions are available, uses the first question as the current query
+    * Otherwise uses the original query
+3.  **Routing -> Tools:** `route_action` uses **conditional edges**:
     * If plan involves vector search -> `vector_search_node`.
     * If plan involves graph search -> `graph_search_node`.
-    * If plan is to synthesize -> `synthesize_answer_node`.
-4.  **Tools -> Evaluation:** Outputs of `vector_search_node` and `graph_search_node` go to `evaluate_results_node`.
-5.  **Evaluation -> Loop/Finish:** `evaluate_results_node` uses **conditional edges**:
-    * If `needs_more_info == True` -> Go back to `plan_step`.
-    * If `needs_more_info == False` -> Go to `synthesize_answer_node`.
-6.  **Finish:** `synthesize_answer_node` is the graph's end node.
+4.  **Tools -> Reranking:** Outputs of `vector_search_node` and `graph_search_node` go to `rerank_results_node` (NEW ORDER).
+    * NEW: Reranking now occurs BEFORE evaluation
+    * Selects top-5 most relevant sources from all retrieved results
+5.  **Reranking -> Evaluation:** `rerank_results_node` passes reranked context to `evaluate_results_node`.
+    * Evaluation now works with already-filtered top-5 sources
+6.  **Evaluation -> Question Generation/Synthesis:** `evaluate_results_node` uses **conditional edges**:
+    * If `needs_more_info == True` -> Go to `generate_intermediate_question_node`.
+    * If `needs_more_info == False` -> Go to `synthesize_answer_node` (directly, no reranking again).
+7.  **Question Generation -> Planning:** `generate_intermediate_question_node` generates 2-3 targeted questions and returns to `plan_step` for iterative search.
+8.  **Finish:** `synthesize_answer_node` is the graph's end node.
 
-**LangGraph Flow Diagram:**
+**Workflow Summary:**
+```
+plan_step → route_action → vector/graph_search → rerank → evaluate → synthesize/question_generation
+```
+
+**LangGraph Flow Diagram (with Intermediate Questions & Reranking Before Evaluation):**
 
 ```mermaid
 graph TD
-    A[Start: User Query] --> B(plan_step<br/>LLM: Analyze query<br/>Decide next action)
+    A[Start: User Query] --> B(plan_step<br/>LLM: Analyze query<br/>Decide next action<br/>NEW: Logged to workflow_nodes)
     B --> C{route_action<br/>Conditional Logic}
 
     C -- Plan: Vector Search --> D["vector_search_node<br/>Tool: Semantic Search<br/>- Embed query<br/>- Cosine similarity<br/>- Return top-k chunks"]
     C -- Plan: Graph Search --> E["graph_search_node<br/>Tool: Cypher Generation<br/>- LLM generates Cypher<br/>- Query Neo4j<br/>- Return structured data"]
-    C -- Plan: Synthesize --> G["synthesize_answer_node<br/>LLM: Generate Answer<br/>- Use all context<br/>- Cite sources"]
 
-    D --> F{"evaluate_results_node<br/>LLM: Assess Sufficiency<br/>- Check coverage<br/>- Verify relevance"}
-    E --> F
+    D --> I["rerank_results_node<br/>Tool: Rerank Sources<br/>NEW: Occurs BEFORE evaluation<br/>- Use Pinecone API<br/>- Select top-5 sources<br/>- Improve relevance"]
+    E --> I
 
-    F -- Need More Info? --> B
-    F -- Info Sufficient? --> G
+    I --> F{"evaluate_results_node<br/>LLM: Assess Sufficiency<br/>NEW: Evaluates reranked sources<br/>- Check coverage<br/>- Verify relevance"}
 
-    G --> H[End: Final Answer<br/>+ Sources]
+    F -- Info Sufficient? --> H["synthesize_answer_node<br/>LLM: Generate Answer<br/>- Use top-5 sources<br/>- Cite sources"]
+    F -- Need More Info? --> G["generate_intermediate_question_node<br/>LLM: Generate Questions<br/>- Analyze gaps<br/>- Create 2-3 targeted questions<br/>- Store for iteration"]
 
+    G --> B
+    H --> J[End: Final Answer<br/>+ Sources + Workflow Nodes]
+
+    style B fill:#FFE082
     style D fill:#e1f5ff
     style E fill:#c8e6c9
+    style I fill:#d1c4e9
     style F fill:#fff9c4
     style G fill:#f8bbd0
+    style H fill:#c8e6c9
 ```
 
 **Detailed Tool Interaction Diagram:**

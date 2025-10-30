@@ -174,17 +174,34 @@ class QueryResponse(BaseModel):
 
 class GraphState(TypedDict):
     """
-    State definition for the LangGraph agent.
+    State definition for the LangGraph agent (v3.0).
     This is passed between nodes in the state machine.
+
+    v3.0 Changes:
+    - Added: chain_of_thought (working memory of search journey)
+    - Added: strategy (current search strategy)
+    - Removed: intermediate_questions (merged into plan_step)
     """
+    # Core Query Fields
     original_query: str                  # The initial user question
-    intermediate_steps: List[tuple]      # History of tool calls and results (for logging/debugging)
+    current_query: Union[str, None]      # The current query being searched (may be refined)
+
+    # NEW: Chain of Thought & Strategy
+    chain_of_thought: List[str]          # Working memory of search journey
+    strategy: Union[Dict[str, Any], None]  # Current search strategy
+
+    # Search Results
     retrieved_context: List[Dict]        # Accumulated context from tools (vector + graph)
+
+    # Agent Decision Making
     plan: Union[str, None]               # Agent's plan or next action decision
     response: Union[str, None]           # Final generated answer
     needs_more_info: bool                # Flag to control potential looping
+
+    # Tracking & Debugging
     iteration_count: int                 # Track number of iterations to prevent infinite loops
     workflow_nodes: List[Dict[str, Any]] # LangGraph workflow nodes executed (for explainability)
+    intermediate_steps: List[tuple]      # History of tool calls and results (for logging/debugging)
 
 
 # Tool Input/Output Models

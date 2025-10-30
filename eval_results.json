@@ -1,0 +1,1694 @@
+[
+  {
+    "qa_id": 1,
+    "question": "In [2024] SGHCF 19, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 19 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 19 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T21:54:49.343998"
+  },
+  {
+    "qa_id": 2,
+    "question": "In [2024] SGHCF 19, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In [2024] SGHCF 19, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk",
+    "extracted_answer": "INVALID - In [2024] SGHCF 19, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_16).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T21:56:12.686544"
+  },
+  {
+    "qa_id": 3,
+    "question": "In [2024] SGHCF 3, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 3 is not explicitly detailed in the provided context. Therefore, I cannot provide a specific answer regarding the main legal issue in that case.",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 3 is not explicitly detailed in the provided context. Therefore, I cannot provide a specific answer regarding the main legal issue in that case.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T21:57:17.270049"
+  },
+  {
+    "qa_id": 4,
+    "question": "In [2024] SGHCF 3, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 3. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 3. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T21:58:10.487722"
+  },
+  {
+    "qa_id": 5,
+    "question": "In [2024] SGHCF 15, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 15 was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 15 was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T21:59:17.902084"
+  },
+  {
+    "qa_id": 6,
+    "question": "In [2024] SGHCF 15, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 15. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 15. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:00:23.913993"
+  },
+  {
+    "qa_id": 7,
+    "question": "In WQX v WQW, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "In WQX v WQW, the main legal issue in the proceeding was the cross-applications for divorce, where the husband claimed the wife's unreasonable behaviour, and the wife counterclaimed based on the husba",
+    "extracted_answer": "INVALID - In WQX v WQW, the main legal issue in the proceeding was the cross-applications for divorce, where the husband claimed the wife's unreasonable behaviour, and the wife counterclaimed based on the husband's unreasonable behaviour and adultery with a co-respondent. The District Judge granted interim judgments in favour of both parties, leading to appeals regarding the findings of adultery and unreasonable behaviour (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:01:54.708164"
+  },
+  {
+    "qa_id": 8,
+    "question": "In WQX v WQW, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "B",
+    "agent_response": "In WQX v WQW, the court dismissed the Applicant's request primarily because the Wife's contention was rejected due to a lack of supporting evidence beyond her bare assertion (Source: chunk_id 4).",
+    "extracted_answer": "INVALID - In WQX v WQW, the court dismissed the Applicant's request primarily because the Wife's contention was rejected due to a lack of supporting evidence beyond her bare assertion (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:03:23.330525"
+  },
+  {
+    "qa_id": 9,
+    "question": "In [2025] SGHCF 45, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 45 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). Further det",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 45 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). Further details on the specific issues were not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:04:54.500054"
+  },
+  {
+    "qa_id": 10,
+    "question": "In [2025] SGHCF 45, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 45. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 45. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:05:58.193470"
+  },
+  {
+    "qa_id": 11,
+    "question": "In XNM v XNN, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of XNM v XNN. Therefore, I cannot provide an answer based on the available sources.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of XNM v XNN. Therefore, I cannot provide an answer based on the available sources.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:07:11.264239"
+  },
+  {
+    "qa_id": 12,
+    "question": "In [2025] SGHCF 42, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 42. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 42. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:08:17.210193"
+  },
+  {
+    "qa_id": 13,
+    "question": "In [2025] SGHCF 1, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 1 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 1 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:09:22.856988"
+  },
+  {
+    "qa_id": 14,
+    "question": "In [2025] SGHCF 1, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In [2025] SGHCF 1, the court dismissed the appeal in its entirety (Source: chunk_id 4).",
+    "extracted_answer": "INVALID - In [2025] SGHCF 1, the court dismissed the appeal in its entirety (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:10:23.700488"
+  },
+  {
+    "qa_id": 15,
+    "question": "In [2024] SGHCF 37, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 37 was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 37 was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:11:31.996060"
+  },
+  {
+    "qa_id": 16,
+    "question": "In XEB v XEC, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In XEB v XEC, the court dismissed the appeal in its entirety (Source: chunk_id 3 and chunk_id 5).",
+    "extracted_answer": "INVALID - In XEB v XEC, the court dismissed the appeal in its entirety (Source: chunk_id 3 and chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:12:32.015362"
+  },
+  {
+    "qa_id": 17,
+    "question": "In VMG v VMH, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In VMG v VMH, the main legal issue was the father's appeal against the sole care and control order granted to the mother. He contended that the mother was unfit due to alleged psychiatric issues, unst",
+    "extracted_answer": "INVALID - In VMG v VMH, the main legal issue was the father's appeal against the sole care and control order granted to the mother. He contended that the mother was unfit due to alleged psychiatric issues, unstable employment, and inadequate caregiving arrangements, and sought various disclosure orders and mental health assessments (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:13:33.149778"
+  },
+  {
+    "qa_id": 18,
+    "question": "In VMG v VMH, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in VMG v VMH was that the appeal was dismissed in its entirety, as indicated in the sources (Source: chunk_id 1, chunk_id 2).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in VMG v VMH was that the appeal was dismissed in its entirety, as indicated in the sources (Source: chunk_id 1, chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:14:50.642091"
+  },
+  {
+    "qa_id": 19,
+    "question": "In WVN v WVO, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of WVN v WVO. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of WVN v WVO. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:16:10.689311"
+  },
+  {
+    "qa_id": 20,
+    "question": "In WVN v WVO, what order did the court make?",
+    "correct_answer": "A",
+    "agent_response": "In WVN v WVO, the court dismissed the appeal in its entirety (Source: chunk_id 1 and chunk_id 2).",
+    "extracted_answer": "INVALID - In WVN v WVO, the court dismissed the appeal in its entirety (Source: chunk_id 1 and chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:17:10.234296"
+  },
+  {
+    "qa_id": 21,
+    "question": "In WPA v WPB, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "In the case of WPA v WPB, the main legal issue was the dispute over the administration of a deceased mother's estate, specifically the plaintiff's request to remove the first and second defendants as ",
+    "extracted_answer": "INVALID - In the case of WPA v WPB, the main legal issue was the dispute over the administration of a deceased mother's estate, specifically the plaintiff's request to remove the first and second defendants as executors due to conflicts of interest and tardiness in administration (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:18:19.905657"
+  },
+  {
+    "qa_id": 22,
+    "question": "In WPA v WPB, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In WPA v WPB, the court dismissed the appeal in its entirety (Source: chunk_id 1, chunk_id 2, chunk_id 5).",
+    "extracted_answer": "INVALID - In WPA v WPB, the court dismissed the appeal in its entirety (Source: chunk_id 1, chunk_id 2, chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:19:30.654383"
+  },
+  {
+    "qa_id": 23,
+    "question": "In WWG v WWH, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In WWG v WWH, the main legal issue was the wife's request for an injunction to prevent the husband from selling Property A. She claimed that he had a gambling problem and would use the proceeds from t",
+    "extracted_answer": "A",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:20:45.461862"
+  },
+  {
+    "qa_id": 24,
+    "question": "In [2024] SGHCF 26, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "B",
+    "agent_response": "In [2024] SGHCF 26, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk",
+    "extracted_answer": "INVALID - In [2024] SGHCF 26, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:21:54.573662"
+  },
+  {
+    "qa_id": 25,
+    "question": "In XIW v XIX, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In XIW v XIX, the main legal issue was the identification, valuation, and division of matrimonial assets worth over S$8.8 million, with the wife advocating for a global assessment methodology for divi",
+    "extracted_answer": "INVALID - In XIW v XIX, the main legal issue was the identification, valuation, and division of matrimonial assets worth over S$8.8 million, with the wife advocating for a global assessment methodology for dividing these assets (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:23:04.117904"
+  },
+  {
+    "qa_id": 26,
+    "question": "In XIW v XIX, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In XIW v XIX, the court dismissed the appeal in its entirety (Source: chunk_id 2, chunk_id 4).",
+    "extracted_answer": "INVALID - In XIW v XIX, the court dismissed the appeal in its entirety (Source: chunk_id 2, chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:24:02.163873"
+  },
+  {
+    "qa_id": 27,
+    "question": "In XFF v XFG, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In XFF v XFG, the main legal issue was whether shared care and control arrangements for the twin children would be appropriate, given that both parents lived in the same HDB flat. The father appealed ",
+    "extracted_answer": "INVALID - In XFF v XFG, the main legal issue was whether shared care and control arrangements for the twin children would be appropriate, given that both parents lived in the same HDB flat. The father appealed against the district judge's decision that granted sole care and control to the mother, arguing that the access orders provided insufficient time with the children and amounted to unjustified supervised access (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:24:59.823321"
+  },
+  {
+    "qa_id": 28,
+    "question": "In [2024] SGHCF 45, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 45. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 45. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:25:58.349569"
+  },
+  {
+    "qa_id": 29,
+    "question": "In [2025] SGHCF 37, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 37 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case facts (Source: case_extract_2025_34_c",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 37 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case facts (Source: case_extract_2025_34_chunk_95).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:27:11.440060"
+  },
+  {
+    "qa_id": 30,
+    "question": "In XOA v XOB, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in XOA v XOB was that the appeal was dismissed in its entirety, as indicated in the decisions (Source: chunk_id 1, chunk_id 2).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in XOA v XOB was that the appeal was dismissed in its entirety, as indicated in the decisions (Source: chunk_id 1, chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:28:16.738004"
+  },
+  {
+    "qa_id": 31,
+    "question": "In XJO v XJP, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In the case of XJO v XJP, the main legal issue was the application to adduce fresh evidence, which included CPF documents, company financial statements, photographs, and WhatsApp messages (Source: chu",
+    "extracted_answer": "INVALID - In the case of XJO v XJP, the main legal issue was the application to adduce fresh evidence, which included CPF documents, company financial statements, photographs, and WhatsApp messages (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:29:25.245883"
+  },
+  {
+    "qa_id": 32,
+    "question": "In XJO v XJP, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In XJO v XJP, the court dismissed the Applicant's request primarily because it found the evidence presented was insufficient to warrant the application. Specifically, the court dismissed the Husband\u2019s",
+    "extracted_answer": "INVALID - In XJO v XJP, the court dismissed the Applicant's request primarily because it found the evidence presented was insufficient to warrant the application. Specifically, the court dismissed the Husband\u2019s application to adduce further evidence (Source: chunk_id 18).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:30:39.156289"
+  },
+  {
+    "qa_id": 33,
+    "question": "In [2025] SGHCF 22, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 22 involved examining two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, the specific detai",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 22 involved examining two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, the specific details of these aspects are not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:31:47.222178"
+  },
+  {
+    "qa_id": 34,
+    "question": "In other v WV, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In the case of WVD and others v WUR and others, the court dismissed the Applicant's request primarily because it was filed too late to appeal and there was no change of circumstances shown (Source: 8,",
+    "extracted_answer": "INVALID - In the case of WVD and others v WUR and others, the court dismissed the Applicant's request primarily because it was filed too late to appeal and there was no change of circumstances shown (Source: 8, 9, 10, 11).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:32:57.038021"
+  },
+  {
+    "qa_id": 35,
+    "question": "In [2024] SGHCF 42, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 42 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 42 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:34:07.042073"
+  },
+  {
+    "qa_id": 36,
+    "question": "In XBF v XBE, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "B",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in XBF v XBE was based on the evidence and the parties' submissions, leading to the conclusion that the appeal was not justified. This is",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in XBF v XBE was based on the evidence and the parties' submissions, leading to the conclusion that the appeal was not justified. This is reflected in the decision where the appeal was dismissed in its entirety (Source: chunk_id 3).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:35:10.131843"
+  },
+  {
+    "qa_id": 37,
+    "question": "In XEW v XE, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In the case of XEW v XEV, the main legal issue was whether the husband was habitually resident in Singapore during the material period, as he spent more time outside Singapore and his presence was not",
+    "extracted_answer": "INVALID - In the case of XEW v XEV, the main legal issue was whether the husband was habitually resident in Singapore during the material period, as he spent more time outside Singapore and his presence was not settled qualitatively (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:36:18.725005"
+  },
+  {
+    "qa_id": 38,
+    "question": "In XEW v XE, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In XEW v XE, the court dismissed the Applicant's request primarily because there were four issues with the application, as outlined in the judge's full grounds of decision (Source: chunk_id 4).",
+    "extracted_answer": "INVALID - In XEW v XE, the court dismissed the Applicant's request primarily because there were four issues with the application, as outlined in the judge's full grounds of decision (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:37:15.580712"
+  },
+  {
+    "qa_id": 39,
+    "question": "In WPK v WPJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of WPK v WPJ. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of WPK v WPJ. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:38:14.552628"
+  },
+  {
+    "qa_id": 40,
+    "question": "In WPK v WPJ, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "In WPK v WPJ, the primary reason the court dismissed the Applicant's request was that the DJ found the Wife's contention to be unsupported by any evidence other than her bare assertion (Source: chunk_",
+    "extracted_answer": "INVALID - In WPK v WPJ, the primary reason the court dismissed the Applicant's request was that the DJ found the Wife's contention to be unsupported by any evidence other than her bare assertion (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:39:14.435647"
+  },
+  {
+    "qa_id": 41,
+    "question": "In VHK v VHL, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of VHK v VHL was the Husband\u2019s appeal against the interim maintenance order and the quantum of the interim maintenance (Source: chunk_id 19).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of VHK v VHL was the Husband\u2019s appeal against the interim maintenance order and the quantum of the interim maintenance (Source: chunk_id 19).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:40:21.193227"
+  },
+  {
+    "qa_id": 42,
+    "question": "In [2024] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 7 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal ",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 7 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal should be dismissed (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:41:32.156014"
+  },
+  {
+    "qa_id": 43,
+    "question": "In [2024] SGHCF 13, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 13. Therefore, I cannot provide an answer based on the available information",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 13. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:42:36.399578"
+  },
+  {
+    "qa_id": 44,
+    "question": "In [2024] SGHCF 13, what order did the court make?",
+    "correct_answer": "B",
+    "agent_response": "The provided context does not contain information about the specific order made by the court in [2024] SGHCF 13. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain information about the specific order made by the court in [2024] SGHCF 13. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:43:39.911484"
+  },
+  {
+    "qa_id": 45,
+    "question": "In [2025] SGHCF 9, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "correct_answer": "A",
+    "agent_response": "In [2025] SGHCF 9, the Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision of the District Judge in the case WUR and others v WVD and othe",
+    "extracted_answer": "INVALID - In [2025] SGHCF 9, the Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision of the District Judge in the case WUR and others v WVD and others [2024] SGFC 13, and they were out of time to file the appeal (Source: chunk_id 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:44:53.065189"
+  },
+  {
+    "qa_id": 46,
+    "question": "In thers v WUR, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The court dismissed the Applicant's request in thers v WUR primarily because the Applicant failed to demonstrate that the Respondent had engaged in conduct that warranted the relief sought. The court ",
+    "extracted_answer": "INVALID - The court dismissed the Applicant's request in thers v WUR primarily because the Applicant failed to demonstrate that the Respondent had engaged in conduct that warranted the relief sought. The court found that the evidence presented did not substantiate the claims made by the Applicant (Source: chunk_id).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:45:56.237780"
+  },
+  {
+    "qa_id": 47,
+    "question": "In thers v WUR, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In the case of WVD and others v WUR and others, the main legal issue was the Applicants' request to pay court-ordered costs by instalments after their application for an extension of time to appeal wa",
+    "extracted_answer": "INVALID - In the case of WVD and others v WUR and others, the main legal issue was the Applicants' request to pay court-ordered costs by instalments after their application for an extension of time to appeal was dismissed. The Respondents objected on procedural grounds, arguing that the High Court lacked the power to make instalment orders, as well as on substantive grounds due to insufficient financial disclosure (Source: 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:47:05.151019"
+  },
+  {
+    "qa_id": 48,
+    "question": "In [2025] SGHCF 46, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 46 was that the Husband's application to adduce further evidence was dismissed (Source: chunk_id 5).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 46 was that the Husband's application to adduce further evidence was dismissed (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:48:06.438582"
+  },
+  {
+    "qa_id": 49,
+    "question": "In [2024] SGHCF 14, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 14 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 14 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:49:14.997348"
+  },
+  {
+    "qa_id": 50,
+    "question": "In VEG v VEF, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The court dismissed the appeal in its entirety in the case of VEG v VEF (Source: chunk_id 3).",
+    "extracted_answer": "INVALID - The court dismissed the appeal in its entirety in the case of VEG v VEF (Source: chunk_id 3).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:50:19.299288"
+  },
+  {
+    "qa_id": 51,
+    "question": "In WZT v WZU, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "In the case of WZT v WZU, the main legal issue was the husband's argument that he was jobless and therefore could not pay maintenance (Source: 1).",
+    "extracted_answer": "INVALID - In the case of WZT v WZU, the main legal issue was the husband's argument that he was jobless and therefore could not pay maintenance (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:51:22.700781"
+  },
+  {
+    "qa_id": 52,
+    "question": "In WZT v WZU, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The court dismissed the Applicant's request in WZT v WZU primarily because the Applicant failed to demonstrate that the Respondent had committed any act of domestic violence against them. The court fo",
+    "extracted_answer": "INVALID - The court dismissed the Applicant's request in WZT v WZU primarily because the Applicant failed to demonstrate that the Respondent had committed any act of domestic violence against them. The court found that the evidence presented did not substantiate the claims of domestic violence (Source: chunk_id).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:52:30.609244"
+  },
+  {
+    "qa_id": 53,
+    "question": "In ANJ v ANK, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of ANJ v ANK. Therefore, I cannot provide an answer based on the available sources.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of ANJ v ANK. Therefore, I cannot provide an answer based on the available sources.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:53:43.086806"
+  },
+  {
+    "qa_id": 54,
+    "question": "In ANJ v ANK, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In ANJ v ANK, the court dismissed the appeal in its entirety (Source: chunk_id 3) and also dismissed SUM 191 (Source: chunk_id 5).",
+    "extracted_answer": "INVALID - In ANJ v ANK, the court dismissed the appeal in its entirety (Source: chunk_id 3) and also dismissed SUM 191 (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:54:39.124644"
+  },
+  {
+    "qa_id": 55,
+    "question": "In WXO v WXP, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "correct_answer": "B",
+    "agent_response": "In WXO v WXP, the Applicant sought an extension of time to file a Notice of Appeal because he claimed he did not know he was supposed to file it and was unaware of how to do so within the stipulated t",
+    "extracted_answer": "INVALID - In WXO v WXP, the Applicant sought an extension of time to file a Notice of Appeal because he claimed he did not know he was supposed to file it and was unaware of how to do so within the stipulated time. However, the court found these reasons unacceptable, noting that he made no attempt to seek help despite having prior experience with a similar application (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:55:47.507056"
+  },
+  {
+    "qa_id": 56,
+    "question": "In [2024] SGHCF 44, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 44 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 44 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 16).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:56:49.505235"
+  },
+  {
+    "qa_id": 57,
+    "question": "In [2024] SGHCF 4, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 4 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 4 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:58:02.419289"
+  },
+  {
+    "qa_id": 58,
+    "question": "In VQF v VQG, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In the case of VQF v VQG, the court ordered the division of matrimonial assets in the ratio of 58:42 in favor of the wife. This decision was made after considering direct contributions (56:44) and ind",
+    "extracted_answer": "INVALID - In the case of VQF v VQG, the court ordered the division of matrimonial assets in the ratio of 58:42 in favor of the wife. This decision was made after considering direct contributions (56:44) and indirect contributions (70:30), with a 5% adjustment in favor of the husband due to the wife's undisclosed income sources (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T22:59:21.653952"
+  },
+  {
+    "qa_id": 59,
+    "question": "In [2025] SGHCF 19, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 19 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_9",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 19 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95). Further context regarding the specific issues can be found in the background of the matter (Source: case_extract_2024_25_chunk_5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:00:18.551535"
+  },
+  {
+    "qa_id": 60,
+    "question": "In TOW v TOV, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in TOW v TOV was due to the dismissal of the appeal in its entirety, as indicated in the sources (Source: chunk_id 1, chunk_id 2, chunk_i",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in TOW v TOV was due to the dismissal of the appeal in its entirety, as indicated in the sources (Source: chunk_id 1, chunk_id 2, chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:01:37.914895"
+  },
+  {
+    "qa_id": 61,
+    "question": "In WUI v WUJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In WUI v WUJ, the main legal issue was whether the District Judge erred in applying only direct financial contributions without considering indirect contributions when dividing matrimonial assets wort",
+    "extracted_answer": "INVALID - In WUI v WUJ, the main legal issue was whether the District Judge erred in applying only direct financial contributions without considering indirect contributions when dividing matrimonial assets worth over S$3.2 million in a childless marriage lasting approximately 8.5 years (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:03:01.672291"
+  },
+  {
+    "qa_id": 62,
+    "question": "In WUI v WUJ, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in WUI v WUJ was due to the dismissal of the appeal in its entirety, as indicated in multiple sources (Source: chunk_id 1, 2, and 5).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in WUI v WUJ was due to the dismissal of the appeal in its entirety, as indicated in multiple sources (Source: chunk_id 1, 2, and 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:04:00.238186"
+  },
+  {
+    "qa_id": 63,
+    "question": "In [2024] SGHCF 43, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 43 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 43 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:05:00.078416"
+  },
+  {
+    "qa_id": 64,
+    "question": "In [2024] SGHCF 43, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 43. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 43. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:06:04.570405"
+  },
+  {
+    "qa_id": 65,
+    "question": "In WWQ v WWR, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "In WWQ v WWR, the main legal issue was the Husband's appeal to vary the original consent order for child maintenance payments, claiming a material change in circumstances due to increased living expen",
+    "extracted_answer": "INVALID - In WWQ v WWR, the main legal issue was the Husband's appeal to vary the original consent order for child maintenance payments, claiming a material change in circumstances due to increased living expenses after moving from Spain to Singapore. However, he failed to provide sufficient evidence to support his claim that his expenses had increased to the extent that he could no longer afford the original amount of S$1,400 per month (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:07:10.281784"
+  },
+  {
+    "qa_id": 66,
+    "question": "In [2025] SGHCF 3, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 3. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 3. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:08:15.233964"
+  },
+  {
+    "qa_id": 67,
+    "question": "In WUA v WUB, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In WUA v WUB, the main legal issue in the proceeding was the valuation of the matrimonial home, with the wife arguing that this valuation may be affected by preparations for a collective sale (Source:",
+    "extracted_answer": "INVALID - In WUA v WUB, the main legal issue in the proceeding was the valuation of the matrimonial home, with the wife arguing that this valuation may be affected by preparations for a collective sale (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:09:24.390916"
+  },
+  {
+    "qa_id": 68,
+    "question": "In [2024] SGHCF 10, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 10. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 10. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:10:24.551672"
+  },
+  {
+    "qa_id": 69,
+    "question": "In WGM v WGN, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In WGM v WGN, the main legal issue was the husband's application to determine the operative dates for determining and valuing matrimonial assets after the original divorce settlement was set aside due",
+    "extracted_answer": "INVALID - In WGM v WGN, the main legal issue was the husband's application to determine the operative dates for determining and valuing matrimonial assets after the original divorce settlement was set aside due to fraudulent non-disclosure about paternity (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:11:24.826840"
+  },
+  {
+    "qa_id": 70,
+    "question": "In [2025] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 23 was that the evidence presented was not sufficient to warrant a different outcome from the previous decision. The cour",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 23 was that the evidence presented was not sufficient to warrant a different outcome from the previous decision. The court considered the parties' submissions and the evidence but ultimately found no grounds to overturn the earlier ruling (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:12:30.922682"
+  },
+  {
+    "qa_id": 71,
+    "question": "In VRJ v VRK, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "In VRJ v VRK, the main legal issue in the proceeding was the division of matrimonial assets, which included a dispute over the contribution ratios claimed by the wife (50:50 for direct contributions a",
+    "extracted_answer": "INVALID - In VRJ v VRK, the main legal issue in the proceeding was the division of matrimonial assets, which included a dispute over the contribution ratios claimed by the wife (50:50 for direct contributions and 30:70 in her favor for indirect contributions), as well as issues related to custody arrangements and maintenance for their two children (Source: 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:13:52.931668"
+  },
+  {
+    "qa_id": 72,
+    "question": "In [2024] SGHCF 29, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 29. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 29. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:14:51.748064"
+  },
+  {
+    "qa_id": 73,
+    "question": "In [2024] SGHCF 9, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 9. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 9. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:15:55.178956"
+  },
+  {
+    "qa_id": 74,
+    "question": "In WPV v WPW, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "A",
+    "agent_response": "In WPV v WPW, the court dismissed the Applicant's request primarily because the Applicant provided no evidence to support their assertions, as noted by the DJ who found the claims to be based solely o",
+    "extracted_answer": "INVALID - In WPV v WPW, the court dismissed the Applicant's request primarily because the Applicant provided no evidence to support their assertions, as noted by the DJ who found the claims to be based solely on the Applicant's bare assertions (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:16:59.022489"
+  },
+  {
+    "qa_id": 75,
+    "question": "In [2025] SGHCF 12, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 12 involved the consideration of fresh evidence presented by the Wife, which was admitted after evaluating the relevant test (Source: chunk_12).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 12 involved the consideration of fresh evidence presented by the Wife, which was admitted after evaluating the relevant test (Source: chunk_12).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:18:00.038500"
+  },
+  {
+    "qa_id": 76,
+    "question": "In WVZ v WVY, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "In WVZ v WVY, the court dismissed the Applicant's request primarily because the appeal was found to lack sufficient grounds, leading to the dismissal of both the Husband's and the Wife's appeals (Sour",
+    "extracted_answer": "INVALID - In WVZ v WVY, the court dismissed the Applicant's request primarily because the appeal was found to lack sufficient grounds, leading to the dismissal of both the Husband's and the Wife's appeals (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:19:07.534033"
+  },
+  {
+    "qa_id": 77,
+    "question": "In XIK v XIL, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In XIK v XIL, the main legal issues in the proceeding involved the division of matrimonial assets, maintenance for the children and wife, and allegations of asset dissipation (Source: 6).",
+    "extracted_answer": "INVALID - In XIK v XIL, the main legal issues in the proceeding involved the division of matrimonial assets, maintenance for the children and wife, and allegations of asset dissipation (Source: 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:20:16.336336"
+  },
+  {
+    "qa_id": 78,
+    "question": "In XIK v XIL, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "I'm sorry, but the provided context does not contain any information regarding the case XIK v XIL or the order made by the court in that case.",
+    "extracted_answer": "INVALID - I'm sorry, but the provided context does not contain any information regarding the case XIK v XIL or the order made by the court in that case.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:21:50.757364"
+  },
+  {
+    "qa_id": 79,
+    "question": "In WTU v WTV, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In WTU v WTV, the main legal issue in the proceeding involved the division of assets, maintenance for children and spouse, and costs following a divorce after 18 years of marriage. The Wife appealed a",
+    "extracted_answer": "INVALID - In WTU v WTV, the main legal issue in the proceeding involved the division of assets, maintenance for children and spouse, and costs following a divorce after 18 years of marriage. The Wife appealed against the District Judge's orders on multiple ancillary matters, including asset division and maintenance arrangements (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:23:19.686525"
+  },
+  {
+    "qa_id": 80,
+    "question": "In WTU v WTV, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in WTU v WTV was that the appeal was dismissed in its entirety, as indicated in the sources (Source: chunk_id 9 and chunk_id 85).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in WTU v WTV was that the appeal was dismissed in its entirety, as indicated in the sources (Source: chunk_id 9 and chunk_id 85).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:24:28.961638"
+  },
+  {
+    "qa_id": 81,
+    "question": "In XLK v XLJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In XLK v XLJ, the main legal issue was a custody dispute between divorced Chinese nationals, where the father took their son to Singapore despite Chinese court orders that granted custody to the mothe",
+    "extracted_answer": "INVALID - In XLK v XLJ, the main legal issue was a custody dispute between divorced Chinese nationals, where the father took their son to Singapore despite Chinese court orders that granted custody to the mother. The Singapore court ultimately dismissed the father's appeal and upheld the orders requiring the child's return to the mother (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:25:41.267874"
+  },
+  {
+    "qa_id": 82,
+    "question": "In XLK v XLJ, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In XLK v XLJ, the court dismissed the Applicant's request primarily because the action should have been commenced by way of originating claim as a contentious probate proceeding (Source: chunk_id).",
+    "extracted_answer": "INVALID - In XLK v XLJ, the court dismissed the Applicant's request primarily because the action should have been commenced by way of originating claim as a contentious probate proceeding (Source: chunk_id).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:26:56.810933"
+  },
+  {
+    "qa_id": 83,
+    "question": "In [2025] SGHCF 11, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 11 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_9",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 11 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95). Further context regarding the specific issues can be found in the background of the matter (Source: case_extract_2024_25_chunk_5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:27:53.798563"
+  },
+  {
+    "qa_id": 84,
+    "question": "In XDJ v XDK, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "In XDJ v XDK, the primary reason the court dismissed the Applicant's request was that the DJ found the Wife's contention to be unsupported by any evidence other than her bare assertion (Source: chunk_",
+    "extracted_answer": "INVALID - In XDJ v XDK, the primary reason the court dismissed the Applicant's request was that the DJ found the Wife's contention to be unsupported by any evidence other than her bare assertion (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:29:05.319681"
+  },
+  {
+    "qa_id": 85,
+    "question": "In [2024] SGHCF 17, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 17 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 17 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:30:14.905774"
+  },
+  {
+    "qa_id": 86,
+    "question": "In [2024] SGHCF 17, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 17. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 17. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:31:26.233622"
+  },
+  {
+    "qa_id": 87,
+    "question": "In XHG v XHH, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not specify the main legal issue in the proceeding of XHG v XHH. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not specify the main legal issue in the proceeding of XHG v XHH. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:32:34.809539"
+  },
+  {
+    "qa_id": 88,
+    "question": "In [2025] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 2 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 5).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 2 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:33:54.815127"
+  },
+  {
+    "qa_id": 89,
+    "question": "In [2024] SGHCF 22, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 22. Therefore, I cannot provide an answer based on the available information",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 22. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:34:55.139723"
+  },
+  {
+    "qa_id": 90,
+    "question": "In WXA v WXB, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The context provided does not include specific information about the order made by the court in the case of WXA v WXB. Therefore, I cannot provide an answer.",
+    "extracted_answer": "INVALID - The context provided does not include specific information about the order made by the court in the case of WXA v WXB. Therefore, I cannot provide an answer.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:36:04.584338"
+  },
+  {
+    "qa_id": 91,
+    "question": "In WTP v WTQ, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "In WTP v WTQ, the main legal issue was the appeal by the divorced husband seeking to vary or rescind his monthly maintenance obligation of $1,000 to his ex-wife, based on a claim of material change in",
+    "extracted_answer": "INVALID - In WTP v WTQ, the main legal issue was the appeal by the divorced husband seeking to vary or rescind his monthly maintenance obligation of $1,000 to his ex-wife, based on a claim of material change in circumstances due to his struggling business in China. The Family Court dismissed his application for insufficient evidence of his financial situation (Source: 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:37:03.784598"
+  },
+  {
+    "qa_id": 92,
+    "question": "In WTP v WTQ, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in WTP v WTQ was that the appeal was dismissed in its entirety, as indicated in the decision (Source: chunk_id 1 and chunk_id 2).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in WTP v WTQ was that the appeal was dismissed in its entirety, as indicated in the decision (Source: chunk_id 1 and chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:38:01.601628"
+  },
+  {
+    "qa_id": 93,
+    "question": "In [2024] SGHCF 47, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 47 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 47 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:39:04.593563"
+  },
+  {
+    "qa_id": 94,
+    "question": "In [2024] SGHCF 47, what order did the court make?",
+    "correct_answer": "C",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 47. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 47. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:40:04.759369"
+  },
+  {
+    "qa_id": 95,
+    "question": "In [2024] SGHCF 27, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 27 revolves around the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 27 revolves around the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:41:07.494406"
+  },
+  {
+    "qa_id": 96,
+    "question": "In [2024] SGHCF 27, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 27. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 27. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:42:06.453963"
+  },
+  {
+    "qa_id": 97,
+    "question": "In TTZ v TT, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In TTZ v TTY, the main legal issue was the Father's appeal against the District Judge's decision to dismiss his application to lift the suspension of a committal order against the Mother. This committ",
+    "extracted_answer": "INVALID - In TTZ v TTY, the main legal issue was the Father's appeal against the District Judge's decision to dismiss his application to lift the suspension of a committal order against the Mother. This committal order was related to the Mother's failure to facilitate access to their teenage son, which had resulted in an estranged relationship between the father and son (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:43:15.698719"
+  },
+  {
+    "qa_id": 98,
+    "question": "In TTZ v TT, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in TTZ v TT was not explicitly detailed in the provided context. However, it is noted that the appeal was dismissed in its entirety (Sour",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in TTZ v TT was not explicitly detailed in the provided context. However, it is noted that the appeal was dismissed in its entirety (Source: chunk_id 9, chunk_id 3, chunk_id 85). Further details on the specific reasons for the dismissal are not available in the provided information.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:44:16.349946"
+  },
+  {
+    "qa_id": 99,
+    "question": "In XII v XIJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "In XII v XIJ, the main legal issue was the mother's application to relocate two children, aged 10 and 8, from Singapore to Brisbane, Australia, following the parents' divorce. This case involved a sha",
+    "extracted_answer": "INVALID - In XII v XIJ, the main legal issue was the mother's application to relocate two children, aged 10 and 8, from Singapore to Brisbane, Australia, following the parents' divorce. This case involved a shared care arrangement between the parents, with the mother being the primary caregiver (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:45:27.181604"
+  },
+  {
+    "qa_id": 100,
+    "question": "In [2025] SGHCF 48, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 48 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 48 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal should be dismissed (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:46:39.174079"
+  },
+  {
+    "qa_id": 101,
+    "question": "In case_extract_2025_43, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "The provided context does not contain information about case_extract_2025_43 or the main legal issue in that proceeding. Therefore, I cannot provide an answer.",
+    "extracted_answer": "INVALID - The provided context does not contain information about case_extract_2025_43 or the main legal issue in that proceeding. Therefore, I cannot provide an answer.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:47:36.304352"
+  },
+  {
+    "qa_id": 102,
+    "question": "In [2025] SGHCF 43, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 43 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 5).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 43 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:48:42.805229"
+  },
+  {
+    "qa_id": 103,
+    "question": "In [2025] SGHCF 33, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 33 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 33 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:49:46.095464"
+  },
+  {
+    "qa_id": 104,
+    "question": "In XNI v XNJ, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In the case of XNI v XNJ, the court ordered the division of matrimonial assets in the ratio of 44.5:55.5 in favor of the wife, applying the ANJ v ANK framework for dual-income marriages (Source: 1).",
+    "extracted_answer": "INVALID - In the case of XNI v XNJ, the court ordered the division of matrimonial assets in the ratio of 44.5:55.5 in favor of the wife, applying the ANJ v ANK framework for dual-income marriages (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:50:59.947014"
+  },
+  {
+    "qa_id": 105,
+    "question": "In WTS v WTR, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In WTS v WTR, the main legal issue in the proceeding involved cross-appeals concerning the division of matrimonial assets, spousal maintenance, and child maintenance following a divorce after approxim",
+    "extracted_answer": "INVALID - In WTS v WTR, the main legal issue in the proceeding involved cross-appeals concerning the division of matrimonial assets, spousal maintenance, and child maintenance following a divorce after approximately 12 years of marriage (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:52:01.179576"
+  },
+  {
+    "qa_id": 106,
+    "question": "In [2024] SGHCF 33, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 33 was that the Wife was not allowed to adduce fresh evidence to support her appeal in DCA 17 (Source: chunk_id 3).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 33 was that the Wife was not allowed to adduce fresh evidence to support her appeal in DCA 17 (Source: chunk_id 3).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:53:05.548533"
+  },
+  {
+    "qa_id": 107,
+    "question": "In XJI v XJJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In XJI v XJJ, the main legal issue in the proceeding involved contested custody, care and control of the children, division of matrimonial assets worth approximately S$5.5 million, and maintenance for",
+    "extracted_answer": "INVALID - In XJI v XJJ, the main legal issue in the proceeding involved contested custody, care and control of the children, division of matrimonial assets worth approximately S$5.5 million, and maintenance for the wife and children (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:54:07.813919"
+  },
+  {
+    "qa_id": 108,
+    "question": "In [2025] SGHCF 17, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In [2025] SGHCF 17, the court dismissed the Applicant's request primarily because the Wife was not allowed to adduce fresh evidence to support her appeal (Source: chunk_id 16).",
+    "extracted_answer": "INVALID - In [2025] SGHCF 17, the court dismissed the Applicant's request primarily because the Wife was not allowed to adduce fresh evidence to support her appeal (Source: chunk_id 16).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:55:05.244004"
+  },
+  {
+    "qa_id": 109,
+    "question": "In [2024] SGHCF 36, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 36 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 36 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:56:35.328234"
+  },
+  {
+    "qa_id": 110,
+    "question": "In XBO v XBP, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in XBO v XBP was related to the dismissal of applications to adduce further evidence, as indicated in the context provided. Specifically,",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in XBO v XBP was related to the dismissal of applications to adduce further evidence, as indicated in the context provided. Specifically, the court dismissed the Wife's application to adduce further evidence for the appeal in DCA 17 (Source: chunk_id 4) and the Husband's application to adduce further evidence in SUM 326 (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:57:37.071688"
+  },
+  {
+    "qa_id": 111,
+    "question": "In VZJ v VZK, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "In VZJ v VZK, the main legal issue was whether the wife should be ordered to return the child to Singapore, as the husband argued that she failed to obtain a proper relocation order (Source: 1).",
+    "extracted_answer": "INVALID - In VZJ v VZK, the main legal issue was whether the wife should be ordered to return the child to Singapore, as the husband argued that she failed to obtain a proper relocation order (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:58:41.106416"
+  },
+  {
+    "qa_id": 112,
+    "question": "In [2024] SGHCF 16, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 16. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 16. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-29T23:59:39.378069"
+  },
+  {
+    "qa_id": 113,
+    "question": "In [2025] SGHCF 28, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 28 involved examining the facts of the case in relation to the two aspects laid out by the Court of Appeal (Source: chunk_id 95).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 28 involved examining the facts of the case in relation to the two aspects laid out by the Court of Appeal (Source: chunk_id 95).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:00:38.538249"
+  },
+  {
+    "qa_id": 114,
+    "question": "In [2025] SGHCF 28, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "I'm sorry, but the provided context does not contain any information regarding the case [2025] SGHCF 28 or the reasons for the court's decision.",
+    "extracted_answer": "INVALID - I'm sorry, but the provided context does not contain any information regarding the case [2025] SGHCF 28 or the reasons for the court's decision.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:01:44.474963"
+  },
+  {
+    "qa_id": 115,
+    "question": "In other v WZJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of \"In other v WZJ.\" Therefore, I cannot provide an answer based on the available informatio",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of \"In other v WZJ.\" Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:02:49.078126"
+  },
+  {
+    "qa_id": 116,
+    "question": "In [2024] SGHCF 39, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 39 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 39 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:03:49.556333"
+  },
+  {
+    "qa_id": 117,
+    "question": "In [2024] SGHCF 12, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "correct_answer": "B",
+    "agent_response": "The Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision of the District Judge and were out of time to appeal. They filed HCF/OSP 6/2024 fo",
+    "extracted_answer": "INVALID - The Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision of the District Judge and were out of time to appeal. They filed HCF/OSP 6/2024 for this extension after missing the deadline to file the necessary appeal documents (Source: chunk_id 3).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:04:54.185701"
+  },
+  {
+    "qa_id": 118,
+    "question": "In AYM v AYL, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in AYM v AYL was due to the dismissal of the appeal in its entirety, as indicated in the decisions referenced (Source: chunk_id 1, chunk_",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in AYM v AYL was due to the dismissal of the appeal in its entirety, as indicated in the decisions referenced (Source: chunk_id 1, chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:05:54.008548"
+  },
+  {
+    "qa_id": 119,
+    "question": "In WWI v WWJ, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In the case of WWI v WWJ, the main legal issue was whether the trial judge erred in finding that the mother lacked the mental capacity to make the 2nd Will. The judge allegedly gave undue weight to Mi",
+    "extracted_answer": "INVALID - In the case of WWI v WWJ, the main legal issue was whether the trial judge erred in finding that the mother lacked the mental capacity to make the 2nd Will. The judge allegedly gave undue weight to Mini-Mental State Examination scores while insufficiently considering the testimony of estate planners (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:06:54.429390"
+  },
+  {
+    "qa_id": 120,
+    "question": "In WWI v WWJ, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in WWI v WWJ was due to the dismissal of the appeal in its entirety, as indicated in the decision (Source: chunk_id 1 and chunk_id 2).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in WWI v WWJ was due to the dismissal of the appeal in its entirety, as indicated in the decision (Source: chunk_id 1 and chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:08:00.429561"
+  },
+  {
+    "qa_id": 121,
+    "question": "In XIS v XIT, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of XIS v XIT is not explicitly stated in the provided context. Therefore, I cannot provide a specific answer based on the available information.",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of XIS v XIT is not explicitly stated in the provided context. Therefore, I cannot provide a specific answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:09:12.861842"
+  },
+  {
+    "qa_id": 122,
+    "question": "In XIS v XIT, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In XIS v XIT, the primary reason the court dismissed the Applicant's request was that the action should have been commenced by way of originating claim as a contentious probate proceeding (Source: chu",
+    "extracted_answer": "INVALID - In XIS v XIT, the primary reason the court dismissed the Applicant's request was that the action should have been commenced by way of originating claim as a contentious probate proceeding (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:10:16.890254"
+  },
+  {
+    "qa_id": 123,
+    "question": "In WRT v WRU, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of WRT v WRU was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 77).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of WRT v WRU was related to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 77).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:11:20.586014"
+  },
+  {
+    "qa_id": 124,
+    "question": "In [2024] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 23 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 23 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 16).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:12:21.052193"
+  },
+  {
+    "qa_id": 125,
+    "question": "In [2025] SGHCF 20, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 20 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: case_extract_2025_34_chun",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 20 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: case_extract_2025_34_chunk_95). However, the specific details of these aspects are not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:13:26.981489"
+  },
+  {
+    "qa_id": 126,
+    "question": "In [2025] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 20 was not explicitly stated in the provided context. However, it is noted that the court heard and dismissed SUM 210, in",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 20 was not explicitly stated in the provided context. However, it is noted that the court heard and dismissed SUM 210, indicating that the decision was made after considering the parties' submissions (Source: chunk_id 18). Further details on the grounds for dismissal are not available in the provided information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:14:36.039043"
+  },
+  {
+    "qa_id": 127,
+    "question": "In TAG v TAH, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of TAG v TAH. Therefore, I cannot provide an answer based on the available sources.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of TAG v TAH. Therefore, I cannot provide an answer based on the available sources.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:15:47.635814"
+  },
+  {
+    "qa_id": 128,
+    "question": "In [2025] SGHCF 29, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 29 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the jud",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 29 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the judgment (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:16:47.751237"
+  },
+  {
+    "qa_id": 129,
+    "question": "In WXW v WX, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In the case of WXW v WXX, the main legal issue was the division of matrimonial assets in a 34-year marriage, specifically whether to apply the structured approach for dual-income marriages or the fram",
+    "extracted_answer": "INVALID - In the case of WXW v WXX, the main legal issue was the division of matrimonial assets in a 34-year marriage, specifically whether to apply the structured approach for dual-income marriages or the framework for single-income marriages. The wife argued that it was a dual-income marriage, seeking 80% of the matrimonial assets (Source: chunk_id 6).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:17:48.404036"
+  },
+  {
+    "qa_id": 130,
+    "question": "In [2024] SGHCF 24, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 24. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 24. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:18:49.467974"
+  },
+  {
+    "qa_id": 131,
+    "question": "In [2025] SGHCF 15, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 15 involved the examination of costs orders made by the District Judge (DJ) and the consideration of fresh evidence presented by the Wife (Source",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 15 involved the examination of costs orders made by the District Judge (DJ) and the consideration of fresh evidence presented by the Wife (Source: chunk_id 77, chunk_id 12).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:19:54.838698"
+  },
+  {
+    "qa_id": 132,
+    "question": "In [2025] SGHCF 15, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 15. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2025] SGHCF 15. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:20:59.799725"
+  },
+  {
+    "qa_id": 133,
+    "question": "In [2025] SGHCF 7, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 7 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: chunk_id 95).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 7 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: chunk_id 95).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:22:03.464229"
+  },
+  {
+    "qa_id": 134,
+    "question": "In [2025] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 7 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the judg",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 7 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the judgment (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:23:13.911774"
+  },
+  {
+    "qa_id": 135,
+    "question": "In WYH v WYG, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In the case of WYH v WYG, the main legal issue was the father's income, which had dropped, and the court's erroneous finding that he had dual income from car sales and insurance (Source: 1).",
+    "extracted_answer": "INVALID - In the case of WYH v WYG, the main legal issue was the father's income, which had dropped, and the court's erroneous finding that he had dual income from car sales and insurance (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:24:23.937197"
+  },
+  {
+    "qa_id": 136,
+    "question": "In WYH v WYG, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "The court dismissed the Applicant's request in WYH v WYG primarily because the Applicant failed to demonstrate that the Respondent had the means to pay the requested amount. This lack of evidence rega",
+    "extracted_answer": "INVALID - The court dismissed the Applicant's request in WYH v WYG primarily because the Applicant failed to demonstrate that the Respondent had the means to pay the requested amount. This lack of evidence regarding the Respondent's financial capability was a key factor in the court's decision (Source: chunk_id).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:25:24.301627"
+  },
+  {
+    "qa_id": 137,
+    "question": "In [2024] SGHCF 5, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 5. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 5. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:26:27.762186"
+  },
+  {
+    "qa_id": 138,
+    "question": "In [2024] SGHCF 5, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The provided context does not contain specific information regarding the primary reason the court dismissed the Applicant's request in [2024] SGHCF 5. Therefore, I cannot provide an answer based on th",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the primary reason the court dismissed the Applicant's request in [2024] SGHCF 5. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:27:25.080182"
+  },
+  {
+    "qa_id": 139,
+    "question": "In WQG v WQF, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In WQG v WQF, the main legal issue was whether the District Judge should have included the $33,933 that the respondent lost in a scam as matrimonial assets, based on the principle from TNL v TNK regar",
+    "extracted_answer": "INVALID - In WQG v WQF, the main legal issue was whether the District Judge should have included the $33,933 that the respondent lost in a scam as matrimonial assets, based on the principle from TNL v TNK regarding substantial expenditure when divorce is imminent (Source: chunk_id 6). Additionally, the appellant sought to vary the ancillary matters order to take over the matrimonial home instead of selling it, proposing to pay the respondent's share through various means (Source: chunk_id 7).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:28:34.712621"
+  },
+  {
+    "qa_id": 140,
+    "question": "In WQG v WQF, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The court dismissed the Applicant's request in WQG v WQF primarily because the Applicant failed to demonstrate that the Respondent had the means to pay the requested amount. This lack of evidence rega",
+    "extracted_answer": "INVALID - The court dismissed the Applicant's request in WQG v WQF primarily because the Applicant failed to demonstrate that the Respondent had the means to pay the requested amount. This lack of evidence regarding the Respondent's financial capability was crucial in the court's decision (Source: chunk_id).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:29:38.265050"
+  },
+  {
+    "qa_id": 141,
+    "question": "In [2024] SGHCF 20, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding [2024] SGHCF 20 involved the costs order made by the District Judge (DJ) in the case, as indicated in the context (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding [2024] SGHCF 20 involved the costs order made by the District Judge (DJ) in the case, as indicated in the context (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:30:42.987358"
+  },
+  {
+    "qa_id": 142,
+    "question": "In [2024] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "In [2024] SGHCF 20, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk",
+    "extracted_answer": "INVALID - In [2024] SGHCF 20, the primary reason the court dismissed the Applicant's request was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:31:50.091522"
+  },
+  {
+    "qa_id": 143,
+    "question": "In [2024] SGHCF 40, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 40. Therefore, I cannot provide an answer based on the available information",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of [2024] SGHCF 40. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:32:51.876729"
+  },
+  {
+    "qa_id": 144,
+    "question": "In WTL v WTM, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "In WTL v WTM, the primary reason the court dismissed the Applicant's request was that the appeal was dismissed in its entirety, as indicated in the decision (Source: chunk_id 9). Additionally, the cou",
+    "extracted_answer": "INVALID - In WTL v WTM, the primary reason the court dismissed the Applicant's request was that the appeal was dismissed in its entirety, as indicated in the decision (Source: chunk_id 9). Additionally, the court dismissed the Wife\u2019s application to adduce further evidence for the appeal, which also contributed to the dismissal (Source: chunk_id 40).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:33:51.011765"
+  },
+  {
+    "qa_id": 145,
+    "question": "In WVG v WV, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The provided context does not contain specific information regarding the main legal issue in the proceeding of WVG v WV. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the main legal issue in the proceeding of WVG v WV. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:34:50.797674"
+  },
+  {
+    "qa_id": 146,
+    "question": "In WVG v WV, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "A",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in WVG v WV was that the appeal was dismissed in its entirety, as indicated in the decisions referenced (Source: chunk_id 9, chunk_id 85)",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in WVG v WV was that the appeal was dismissed in its entirety, as indicated in the decisions referenced (Source: chunk_id 9, chunk_id 85).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:35:59.848349"
+  },
+  {
+    "qa_id": 147,
+    "question": "In XAT v XAU, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In XAT v XAU, the main legal issue was the validity of the deceased husband's will, specifically whether he lacked testamentary capacity, whether the will was forged, and whether he was under undue in",
+    "extracted_answer": "INVALID - In XAT v XAU, the main legal issue was the validity of the deceased husband's will, specifically whether he lacked testamentary capacity, whether the will was forged, and whether he was under undue influence when signing it shortly after undergoing foot amputation surgery (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:37:06.643073"
+  },
+  {
+    "qa_id": 148,
+    "question": "In XAT v XAU, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in XAT v XAU was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal shoul",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in XAT v XAU was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal should be dismissed (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:38:10.037419"
+  },
+  {
+    "qa_id": 149,
+    "question": "In [2025] SGHCF 31, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 31 involved examining two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, the specific detai",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 31 involved examining two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, the specific details of these aspects are not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:39:01.620507"
+  },
+  {
+    "qa_id": 150,
+    "question": "In WJG v WJH, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In WJG v WJH, the court dismissed the appeal in its entirety (Source: chunk_id 9 and chunk_id 85).",
+    "extracted_answer": "INVALID - In WJG v WJH, the court dismissed the appeal in its entirety (Source: chunk_id 9 and chunk_id 85).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:39:54.598748"
+  },
+  {
+    "qa_id": 151,
+    "question": "In XHG v XHH, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "The provided context does not specify the main legal issue in the proceeding of XHG v XHH. Therefore, I cannot provide an answer based on the available information.",
+    "extracted_answer": "INVALID - The provided context does not specify the main legal issue in the proceeding of XHG v XHH. Therefore, I cannot provide an answer based on the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:40:45.072745"
+  },
+  {
+    "qa_id": 152,
+    "question": "In XHG v XHH, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "B",
+    "agent_response": "In XHG v XHH, the court dismissed the Applicant's request primarily because it found the evidence presented was insufficient to warrant the appeal, as indicated in the decision where the appeal was di",
+    "extracted_answer": "INVALID - In XHG v XHH, the court dismissed the Applicant's request primarily because it found the evidence presented was insufficient to warrant the appeal, as indicated in the decision where the appeal was dismissed in its entirety (Source: chunk_id 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:41:46.775281"
+  },
+  {
+    "qa_id": 153,
+    "question": "In [2025] SGHCF 35, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 35 involved the consideration of fresh evidence presented by the Wife, which was admitted after evaluating the relevant test (Source: chunk_id 12",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 35 involved the consideration of fresh evidence presented by the Wife, which was admitted after evaluating the relevant test (Source: chunk_id 12).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:42:50.366486"
+  },
+  {
+    "qa_id": 154,
+    "question": "In [2025] SGHCF 35, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 35 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the jud",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 35 was that the appeal was dismissed after considering the evidence and the parties' submissions, as indicated in the judgment (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:43:50.608595"
+  },
+  {
+    "qa_id": 155,
+    "question": "In XIB v XIA, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "In XIB v XIA, the main legal issue was whether shares in a company established before marriage should be included in the matrimonial pool for asset division, given that the parties lived separately th",
+    "extracted_answer": "INVALID - In XIB v XIA, the main legal issue was whether shares in a company established before marriage should be included in the matrimonial pool for asset division, given that the parties lived separately throughout their marriage (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:45:01.097137"
+  },
+  {
+    "qa_id": 156,
+    "question": "In [2025] SGHCF 40, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 40 was that the Wife's application to adduce further evidence for the appeal was dismissed (Source: chunk_id 40).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 40 was that the Wife's application to adduce further evidence for the appeal was dismissed (Source: chunk_id 40).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:45:57.663158"
+  },
+  {
+    "qa_id": 157,
+    "question": "In [2025] SGHCF 32, what was the main legal issue in the proceeding?",
+    "correct_answer": "B",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 32 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, th",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 32 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). However, the specific details of these aspects are not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:46:50.101300"
+  },
+  {
+    "qa_id": 158,
+    "question": "In [2025] SGHCF 32, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 32 was due to the dismissal of the appeal, as indicated in the judgment where it states, \"I dismissed the appeal\" (Source",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 32 was due to the dismissal of the appeal, as indicated in the judgment where it states, \"I dismissed the appeal\" (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:47:54.256275"
+  },
+  {
+    "qa_id": 159,
+    "question": "In [2025] SGHCF 49, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 49 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_9",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 49 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:48:45.015482"
+  },
+  {
+    "qa_id": 160,
+    "question": "In [2025] SGHCF 49, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "B",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 49 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 49 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal should be dismissed (Source: chunk_id 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:49:58.057304"
+  },
+  {
+    "qa_id": 161,
+    "question": "In [2024] SGHCF 30, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 30 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 30 involved the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:50:53.481253"
+  },
+  {
+    "qa_id": 162,
+    "question": "In [2024] SGHCF 30, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 30. Therefore, I cannot provide an answer to your query.",
+    "extracted_answer": "INVALID - The provided context does not contain specific information regarding the order made by the court in [2024] SGHCF 30. Therefore, I cannot provide an answer to your query.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:51:50.621190"
+  },
+  {
+    "qa_id": 163,
+    "question": "In [2025] SGHCF 34, what was the main legal issue in the proceeding?",
+    "correct_answer": "A",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 34 involved examining two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95). However, the",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 34 involved examining two aspects laid out by the Court of Appeal, as indicated in the case (Source: case_extract_2025_34_chunk_95). However, the specific details of these aspects are not provided in the context.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:52:56.041566"
+  },
+  {
+    "qa_id": 164,
+    "question": "In XML v XMM, what order did the court make?",
+    "correct_answer": "C",
+    "agent_response": "In the case of XML v XMM, the court ordered the division of matrimonial assets in the ratio of 65.5% to the Husband and 34.5% to the Wife, along with specific arrangements for the sale and buyout opti",
+    "extracted_answer": "INVALID - In the case of XML v XMM, the court ordered the division of matrimonial assets in the ratio of 65.5% to the Husband and 34.5% to the Wife, along with specific arrangements for the sale and buyout options of jointly-owned properties (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:54:00.617544"
+  },
+  {
+    "qa_id": 165,
+    "question": "In [2025] SGHCF 30, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 30 involved examining the costs order made by the District Judge (DJ) in the case (Source: chunk_id 77).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 30 involved examining the costs order made by the District Judge (DJ) in the case (Source: chunk_id 77).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:54:51.476748"
+  },
+  {
+    "qa_id": 166,
+    "question": "In XCV v XC, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "D",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in XCV v XC was that the cases relied on by the Father were distinguishable from the present appeal, which did not assist him (Source: ch",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in XCV v XC was that the cases relied on by the Father were distinguishable from the present appeal, which did not assist him (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:55:58.345940"
+  },
+  {
+    "qa_id": 167,
+    "question": "In XKT v XKU, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "In XKT v XKU, the main legal issue was the division of matrimonial assets, spousal maintenance, and child maintenance following the divorce. The court also addressed the Father's failure to make full ",
+    "extracted_answer": "INVALID - In XKT v XKU, the main legal issue was the division of matrimonial assets, spousal maintenance, and child maintenance following the divorce. The court also addressed the Father's failure to make full and frank disclosure of his business assets, which led to an adverse inference and a 20% uplift in favor of the Mother (Source: 1).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:57:19.403643"
+  },
+  {
+    "qa_id": 168,
+    "question": "In [2025] SGHCF 27, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "A",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2025] SGHCF 27 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 3).",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2025] SGHCF 27 was that the appeal was dismissed in its entirety, as indicated in the judgment (Source: chunk_id 3).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:58:33.202116"
+  },
+  {
+    "qa_id": 169,
+    "question": "In [2024] SGHCF 2, what was the main legal issue in the proceeding?",
+    "correct_answer": "D",
+    "agent_response": "The main legal issue in the proceeding of [2024] SGHCF 2 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2024] SGHCF 2 pertains to the costs order made by the District Judge (DJ) in the case (Source: chunk_id 2).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T00:59:49.116381"
+  },
+  {
+    "qa_id": 170,
+    "question": "In [2024] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 2 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_i",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 2 was that the Wife was not allowed to adduce fresh evidence via SUM 210 to support her appeal in DCA 17 (Source: chunk_id 5).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:01:10.159925"
+  },
+  {
+    "qa_id": 171,
+    "question": "In [2024] SGHCF 1, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "correct_answer": "C",
+    "agent_response": "In [2024] SGHCF 1, the Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision made in their matrimonial proceedings and were requesting a sec",
+    "extracted_answer": "INVALID - In [2024] SGHCF 1, the Applicant sought an extension of time to file a Notice of Appeal because they were dissatisfied with the decision made in their matrimonial proceedings and were requesting a second extension of time to file the notice (Source: chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:02:27.786726"
+  },
+  {
+    "qa_id": 172,
+    "question": "In [2024] SGHCF 1, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "The primary reason the court dismissed the Applicant's request in [2024] SGHCF 1 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal ",
+    "extracted_answer": "INVALID - The primary reason the court dismissed the Applicant's request in [2024] SGHCF 1 was based on the consideration of the evidence and the parties' submissions, leading to the conclusion that the appeal should be dismissed (Source: [1] case_extract_2025_7_chunk_3).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:04:09.928521"
+  },
+  {
+    "qa_id": 173,
+    "question": "In [2025] SGHCF 26, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "The main legal issue in the proceeding of [2025] SGHCF 26 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). Further det",
+    "extracted_answer": "INVALID - The main legal issue in the proceeding of [2025] SGHCF 26 revolves around the examination of two aspects laid out by the Court of Appeal, as indicated in the context (Source: chunk_id 95). Further details on the specific aspects are not provided in the available information.",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:05:17.599098"
+  },
+  {
+    "qa_id": 174,
+    "question": "In XCQ v XCP, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "In XCQ v XCP, the court dismissed the appeal in its entirety (Source: chunk_id 3 and chunk_id 4).",
+    "extracted_answer": "INVALID - In XCQ v XCP, the court dismissed the appeal in its entirety (Source: chunk_id 3 and chunk_id 4).",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:06:26.328407"
+  },
+  {
+    "qa_id": 175,
+    "question": "In VBL v VBM, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:08:28.396930"
+  },
+  {
+    "qa_id": 176,
+    "question": "In VBL v VBM, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:10:30.470781"
+  },
+  {
+    "qa_id": 177,
+    "question": "In [2025] SGHCF 38, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:12:32.550054"
+  },
+  {
+    "qa_id": 178,
+    "question": "In AQL v AQM, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:14:34.650527"
+  },
+  {
+    "qa_id": 179,
+    "question": "In WOZ v WOY, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:16:36.734680"
+  },
+  {
+    "qa_id": 180,
+    "question": "In [2024] SGHCF 11, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:18:38.811350"
+  },
+  {
+    "qa_id": 181,
+    "question": "In [2025] SGHCF 14, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:20:40.896990"
+  },
+  {
+    "qa_id": 182,
+    "question": "In [2025] SGHCF 14, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T01:22:42.967724"
+  },
+  {
+    "qa_id": 183,
+    "question": "In WYQ v Child, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T04:12:44.638051"
+  },
+  {
+    "qa_id": 184,
+    "question": "In WYQ v Child, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T07:35:53.443768"
+  },
+  {
+    "qa_id": 185,
+    "question": "In [2025] SGHCF 10, what was the main legal issue in the proceeding?",
+    "correct_answer": "C",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T07:37:55.503104"
+  },
+  {
+    "qa_id": 186,
+    "question": "In WYL v WYK, what was the primary reason the court dismissed the Applicant's request?",
+    "correct_answer": "C",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T07:39:57.558696"
+  },
+  {
+    "qa_id": 187,
+    "question": "In [2024] SGHCF 41, what was the main legal issue in the proceeding?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T07:41:59.621872"
+  },
+  {
+    "qa_id": 188,
+    "question": "In WZN v WZM, what order did the court make?",
+    "correct_answer": "E",
+    "agent_response": "TIMEOUT",
+    "extracted_answer": "INVALID - TIMEOUT",
+    "is_correct": false,
+    "timestamp": "2025-10-30T07:44:01.705519"
+  }
+]

@@ -36,7 +36,7 @@ class Config:
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
     
     # Agent Configuration
-    MAX_ITERATIONS: int = 5
+    MAX_ITERATIONS: int = 10
     VECTOR_SEARCH_TOP_K: int = 5
     
     @classmethod

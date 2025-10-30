@@ -22,6 +22,7 @@ class TestLegalRAGAgent:
         assert agent.llm is not None
         assert agent.vector_tool is not None
         assert agent.graph_tool is not None
+        assert agent.reranker_tool is not None
         assert agent.graph is not None
     
     def test_singleton_pattern(self):
@@ -31,133 +32,174 @@ class TestLegalRAGAgent:
         assert agent1 is agent2
     
     def test_plan_step_updates_state(self, agent):
-        """Test that plan_step updates the state correctly."""
+        """Test that plan_step updates the state correctly (v3.0)."""
         state: GraphState = {
             "original_query": "What are cases about custody?",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
             "plan": None,
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
-        
+
         new_state = agent.plan_step(state)
         assert new_state["plan"] is not None
-        assert new_state["plan"] in ["vector_search", "graph_search", "synthesize"]
+        assert new_state["plan"] in ["vector", "graph"]  # v3.0: returns "vector" or "graph"
         assert new_state["iteration_count"] == 1
+        assert len(new_state["chain_of_thought"]) > 0  # v3.0: chain_of_thought should be updated
+        assert new_state["strategy"] is not None  # v3.0: strategy should be set
     
     def test_route_action_returns_valid_route(self, agent):
-        """Test that route_action returns valid routes."""
+        """Test that route_action returns valid routes (v3.0)."""
         state_vector: GraphState = {
             "original_query": "test",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
-            "plan": "vector_search",
+            "plan": "vector",
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
         assert agent.route_action(state_vector) == "vector"
-        
+
         state_graph: GraphState = {
             "original_query": "test",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
-            "plan": "graph_search",
+            "plan": "graph",
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
         assert agent.route_action(state_graph) == "graph"
-        
+
         state_synth: GraphState = {
             "original_query": "test",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
             "plan": "synthesize",
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
         assert agent.route_action(state_synth) == "synthesize"
     
     def test_vector_search_node_updates_context(self, agent):
-        """Test that vector_search_node updates retrieved_context."""
+        """Test that vector_search_node updates retrieved_context (v3.0)."""
         state: GraphState = {
             "original_query": "custody cases",
+            "current_query": "custody cases",  # v3.0: set current_query
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
-            "plan": "vector_search",
+            "plan": "vector",
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
-        
+
         new_state = agent.vector_search_node(state)
         assert isinstance(new_state["retrieved_context"], list)
-        assert len(new_state["intermediate_steps"]) > 0
+        assert len(new_state["chain_of_thought"]) > 0  # v3.0: check chain_of_thought instead
     
     def test_graph_search_node_updates_context(self, agent):
-        """Test that graph_search_node updates retrieved_context."""
+        """Test that graph_search_node updates retrieved_context (v3.0)."""
         state: GraphState = {
             "original_query": "Find cases about custody",
+            "current_query": "Find cases about custody",  # v3.0: set current_query
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
-            "plan": "graph_search",
+            "plan": "graph",
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
-        
+
         new_state = agent.graph_search_node(state)
         assert isinstance(new_state["retrieved_context"], list)
-        assert len(new_state["intermediate_steps"]) > 0
+        assert len(new_state["chain_of_thought"]) > 0  # v3.0: check chain_of_thought instead
     
     def test_evaluate_results_node_sets_needs_more_info(self, agent):
-        """Test that evaluate_results_node sets needs_more_info flag."""
+        """Test that evaluate_results_node sets needs_more_info flag (v3.0)."""
         state: GraphState = {
             "original_query": "test query",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
             "plan": None,
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
-        
+
         new_state = agent.evaluate_results_node(state)
         assert "needs_more_info" in new_state
         assert isinstance(new_state["needs_more_info"], bool)
-    
+
     def test_should_continue_logic(self, agent):
-        """Test should_continue conditional logic."""
+        """Test should_continue conditional logic (v3.0)."""
         state_continue: GraphState = {
             "original_query": "test",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
             "plan": None,
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
         assert agent.should_continue(state_continue) == "continue"
-        
+
         state_synth: GraphState = {
             "original_query": "test",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [],
             "plan": None,
             "response": None,
             "needs_more_info": False,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
         assert agent.should_continue(state_synth) == "synthesize"
     
     def test_synthesize_answer_node_generates_response(self, agent):
-        """Test that synthesize_answer_node generates a response."""
+        """Test that synthesize_answer_node generates a response (v3.0)."""
         state: GraphState = {
             "original_query": "What is custody?",
+            "current_query": None,
+            "chain_of_thought": [],
+            "strategy": None,
             "intermediate_steps": [],
             "retrieved_context": [
                 {
@@ -171,19 +213,24 @@ class TestLegalRAGAgent:
             "response": None,
             "needs_more_info": False,
             "iteration_count": 0,
+            "workflow_nodes": [],
         }
-        
+
         new_state = agent.synthesize_answer_node(state)
         assert new_state["response"] is not None
         assert isinstance(new_state["response"], str)
         assert len(new_state["response"]) > 0
+        assert "chain_of_thought" in new_state  # v3.0: check that CoT is in state
     
     def test_run_method_returns_result(self, agent):
-        """Test that run method returns a valid result."""
+        """Test that run method returns a valid result (v3.0)."""
         result = agent.run("What are cases about custody?")
-        
+
         assert "answer" in result
         assert "sources" in result
+        assert "workflow_nodes" in result
+        assert "chain_of_thought" in result  # v3.0: check for chain_of_thought
         assert isinstance(result["answer"], str)
         assert isinstance(result["sources"], list)
+        assert isinstance(result["chain_of_thought"], list)  # v3.0: verify CoT is a list
 

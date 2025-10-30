@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langgraph.graph import StateGraph, END
 from src.config import config
 from src.models.schemas import GraphState, Source
-from src.tools import get_vector_search_tool, get_graph_search_tool
+from src.tools import get_vector_search_tool, get_graph_search_tool, get_reranker
 
 logger = logging.getLogger(__name__)
 
@@ -27,29 +27,30 @@ class LegalRAGAgent:
             temperature=0,
             api_key=config.OPENAI_API_KEY
         )
-        
+
         self.vector_tool = get_vector_search_tool()
         self.graph_tool = get_graph_search_tool()
-        
+        self.reranker_tool = get_reranker()
+
         # Build the state graph
         self.graph = self._build_graph()
         logger.info("Initialized LegalRAGAgent")
     
     def _build_graph(self) -> StateGraph:
-        """Build the LangGraph state machine."""
+        """Build the LangGraph state machine"""
         # Create the state graph
         workflow = StateGraph(GraphState)
-        
-        # Add nodes
+
         workflow.add_node("plan_step", self.plan_step)
         workflow.add_node("vector_search_node", self.vector_search_node)
         workflow.add_node("graph_search_node", self.graph_search_node)
+        workflow.add_node("rerank_results_node", self.rerank_results_node)
         workflow.add_node("evaluate_results_node", self.evaluate_results_node)
         workflow.add_node("synthesize_answer_node", self.synthesize_answer_node)
-        
+
         # Set entry point
         workflow.set_entry_point("plan_step")
-        
+
         # Add conditional edges from plan_step
         workflow.add_conditional_edges(
             "plan_step",
@@ -57,27 +58,29 @@ class LegalRAGAgent:
             {
                 "vector": "vector_search_node",
                 "graph": "graph_search_node",
-                "synthesize": "synthesize_answer_node",
             }
         )
-        
-        # Add edges from tool nodes to evaluation
-        workflow.add_edge("vector_search_node", "evaluate_results_node")
-        workflow.add_edge("graph_search_node", "evaluate_results_node")
-        
-        # Add conditional edges from evaluation
+
+        # Add edges from tool nodes to reranking
+        workflow.add_edge("vector_search_node", "rerank_results_node")
+        workflow.add_edge("graph_search_node", "rerank_results_node")
+
+        # Add edge from reranking to evaluation
+        workflow.add_edge("rerank_results_node", "evaluate_results_node")
+
+        # Add conditional edges from evaluation (v3.0: direct to plan_step or synthesize)
         workflow.add_conditional_edges(
             "evaluate_results_node",
             self.should_continue,
             {
-                "continue": "plan_step",
+                "continue": "plan_step",  # v3.0: go back to planning instead of intermediate questions
                 "synthesize": "synthesize_answer_node",
             }
         )
-        
+
         # Add edge from synthesis to end
         workflow.add_edge("synthesize_answer_node", END)
-        
+
         # Compile the graph
         return workflow.compile()
     
@@ -85,68 +88,195 @@ class LegalRAGAgent:
         """
         LLM node: Analyze the query and decide the next action.
         """
-        logger.info("Executing plan_step")
-        
+        logger.info("=" * 80)
+        logger.info("EXECUTING PLAN_STEP")
+        logger.info("=" * 80)
+
         original_query = state["original_query"]
-        intermediate_steps = state.get("intermediate_steps", [])
         retrieved_context = state.get("retrieved_context", [])
         iteration_count = state.get("iteration_count", 0)
-        
-        # Build context summary
-        context_summary = f"Retrieved {len(retrieved_context)} sources so far."
-        if intermediate_steps:
-            context_summary += f"\nPrevious actions: {[step[0] for step in intermediate_steps[-3:]]}"
-        
-        # Create planning prompt
-        system_prompt = """You are a planning agent for a legal research system.
-            Your job is to decide what action to take next to answer the user's query.
+        chain_of_thought = state.get("chain_of_thought", [])
+        workflow_nodes = state.get("workflow_nodes", [])
 
-            Available actions:
-            1. "vector_search" - Search for relevant text chunks using semantic similarity (best for nuanced, semantic queries)
-            2. "graph_search" - Query the knowledge graph for structured information about cases, arguments, statutes, etc. (best for entity-based queries)
-            3. "synthesize" - Generate the final answer based on retrieved context
+        current_query = original_query
 
-            Strategy:
-            - Use BOTH vector and graph search for comprehensive results
-            - If no searches have been done yet, start with vector_search for semantic understanding
-            - After vector search, use graph_search for structured entity relationships
-            - Only synthesize after trying both search types
-            - Synthesize when you have diverse results from both search methods
+        # Build detailed context summary
+        context_summary = self._build_context_summary(retrieved_context, [])
 
-            Respond with ONLY one of: "vector_search", "graph_search", or "synthesize"
-            """
-        
-        user_prompt = f"""Original Query: {original_query}
+        # Create planning prompt with graph schema and context
+        system_prompt = """You are a strategic planning agent for a legal research system
+Your job is to analyze the current situation and generate a strategy for the next search action.
 
-            {context_summary}
+KNOWLEDGE GRAPH SCHEMA:
+Node Types: Case, Person, Statute, LegalPrinciple, Argument
+Key Relationships: PRESIDED_OVER, IS_PARTY_IN, REPRESENTED, CITES, CONTAINS, IS_RELATED_TO, MADE, IS_ABOUT, REFERENCES
 
-        What action should we take next?"""
-        
+AVAILABLE SEARCH TYPES:
+1. "vector" - Semantic search on Pinecone (best for: nuanced queries, semantic understanding)
+2. "graph" - Structured search on Neo4j (best for: entity relationships, precedents, specific details)
+
+SEARCH APPROACHES:
+- "semantic": Use semantic similarity for finding related concepts
+- "keyword": Use keyword matching for specific terms
+- "principles": Search for legal principles and concepts
+- "combined": Mix multiple approaches
+
+YOUR TASK:
+1. Analyze the current query and retrieved context
+2. Identify what information is still needed
+3. Generate a strategy with:
+   - search_type: "vector" or "graph"
+   - approach: "semantic", "keyword", "principles", or "combined"
+   - query: Refined query string for the search
+   - focus_areas: List of key areas to focus on
+   - filters: List of queries/cases to avoid (dead-ends)
+   - reasoning: Brief explanation of why this strategy
+
+Respond with ONLY a JSON object (no markdown, no extra text).
+"""
+
+        user_prompt = f"""Current Query: {current_query}
+
+{context_summary}
+
+Chain of Thought History:
+{self._format_chain_of_thought(chain_of_thought)}
+
+Generate a strategy for the next search. Respond with ONLY a JSON object."""
+
         messages = [
             SystemMessage(content=system_prompt),
             HumanMessage(content=user_prompt)
         ]
-        
-        response = self.llm.invoke(messages)
-        plan = response.content.strip().lower()
-        
-        # Ensure plan is valid
-        if "vector" in plan:
-            plan = "vector_search"
-        elif "graph" in plan:
-            plan = "graph_search"
-        elif "synth" in plan:
-            plan = "synthesize"
-        else:
-            # Default to synthesize if unclear
-            plan = "synthesize"
-        
-        logger.info(f"Plan decided: {plan}")
-        
+
+        try:
+            response = self.llm.invoke(messages)
+            strategy_text = response.content.strip()
+
+            # Parse strategy JSON
+            import json
+            strategy = json.loads(strategy_text)
+            plan = strategy.get("search_type", "vector")
+
+            logger.info(f"Generated strategy: {plan}")
+            logger.info(f"Strategy details: {strategy}")
+
+        except Exception as e:
+            logger.warning(f"Failed to parse strategy JSON: {e}. Using default strategy.")
+            # Default strategy
+            if len(retrieved_context) == 0:
+                plan = "vector"
+                strategy = {
+                    "search_type": "vector",
+                    "approach": "semantic",
+                    "query": current_query,
+                    "focus_areas": ["main query"],
+                    "filters": [],
+                    "reasoning": "Initial search - start with vector search for semantic understanding"
+                }
+            else:
+                plan = "graph"
+                strategy = {
+                    "search_type": "graph",
+                    "approach": "semantic",
+                    "query": current_query,
+                    "focus_areas": ["relationships", "precedents"],
+                    "filters": [],
+                    "reasoning": "Follow-up search - use graph search for structured relationships"
+                }
+
+        # Update chain of thought with planning analysis
+        cot_entry = f"Iteration {iteration_count + 1} - Planning:\n"
+        cot_entry += f"  Query: {current_query[:80]}\n"
+        cot_entry += f"  Strategy: {plan} search using {strategy.get('approach', 'unknown')} approach\n"
+        cot_entry += f"  Focus Areas: {', '.join(strategy.get('focus_areas', []))}\n"
+        cot_entry += f"  Filters: {', '.join(strategy.get('filters', [])) if strategy.get('filters') else 'None'}"
+        chain_of_thought.append(cot_entry)
+
+        # Create workflow node entry for plan_step
+        execution_order = len(workflow_nodes) + 1
+        workflow_node = {
+            "node_name": "plan_step",
+            "node_type": "planning",
+            "results_count": 0,
+            "summary": f"Generated strategy for {plan} search. Focus: {', '.join(strategy.get('focus_areas', [])[:2])}",
+            "execution_order": execution_order,
+            "details": {
+                "plan": plan,
+                "strategy": strategy,
+                "current_query": current_query[:100] + "..." if len(current_query) > 100 else current_query,
+                "iteration": iteration_count + 1,
+                "context_sources": len(retrieved_context),
+                "context_types": self._get_context_types(retrieved_context)
+            }
+        }
+        workflow_nodes.append(workflow_node)
+
         state["plan"] = plan
+        state["strategy"] = strategy
+        state["current_query"] = current_query
+        state["chain_of_thought"] = chain_of_thought
         state["iteration_count"] = iteration_count + 1
-        
+        state["workflow_nodes"] = workflow_nodes
+
+        logger.info("=" * 80)
+        logger.info("PLAN_STEP COMPLETE")
+        logger.info("=" * 80)
+
         return state
+
+    def _format_chain_of_thought(self, chain_of_thought: List[str]) -> str:
+        """Format chain of thought for display in prompts."""
+        if not chain_of_thought:
+            return "No previous iterations yet."
+        return "\n".join(chain_of_thought[-3:])  # Show last 3 entries
+
+    def _build_context_summary(self, retrieved_context: List[Dict], intermediate_steps: List[tuple]) -> str:
+        """Build a detailed summary of current context for the planning prompt."""
+        summary_parts = []
+
+        # Overall context count
+        summary_parts.append(f"Retrieved {len(retrieved_context)} sources so far.")
+
+        # Break down by source type
+        if retrieved_context:
+            vector_count = sum(1 for ctx in retrieved_context if ctx.get("type") == "vector")
+            graph_count = sum(1 for ctx in retrieved_context if ctx.get("type") == "graph")
+
+            if vector_count > 0:
+                summary_parts.append(f"  - Vector search results: {vector_count}")
+            if graph_count > 0:
+                summary_parts.append(f"  - Graph search results: {graph_count}")
+
+            # Show sample of retrieved information
+            if len(retrieved_context) > 0:
+                summary_parts.append("\nCurrent context includes:")
+                for ctx in retrieved_context[:3]:
+                    if ctx.get("type") == "vector":
+                        logger.info(f"Vector context: {ctx.get('data', '')}...")
+                        summary_parts.append(f"  - Vector: {ctx.get('data', '')}...")
+                    else:
+                        logger.info(f"Context Type: {ctx.get('type')}")
+                        logger.info(f"Context (Above should be graph): {ctx.get('data', '')}")
+                        summary_parts.append(f"  - Graph: {ctx.get('data', '')}...")
+                if len(retrieved_context) > 3:
+                    summary_parts.append(f"  ... and {len(retrieved_context) - 3} more sources")
+
+        # Previous actions
+        if intermediate_steps:
+            recent_actions = [step[0] for step in intermediate_steps[-3:]]
+            summary_parts.append(f"\nPrevious actions: {recent_actions}")
+
+        return "\n".join(summary_parts)
+
+    def _get_context_types(self, retrieved_context: List[Dict]) -> Dict[str, int]:
+        """Get breakdown of context types."""
+        types = {"vector": 0, "graph": 0}
+        for ctx in retrieved_context:
+            ctx_type = ctx.get("type", "unknown")
+            if ctx_type in types:
+                types[ctx_type] += 1
+        return types
     
     def route_action(self, state: GraphState) -> Literal["vector", "graph", "synthesize"]:
         """
@@ -197,25 +327,67 @@ class LegalRAGAgent:
 
     def vector_search_node(self, state: GraphState) -> GraphState:
         """
-        Tool node: Execute vector search.
+        Tool node: Execute vector search
         """
         logger.info("Executing vector_search_node")
 
         original_query = state["original_query"]
+        current_query = state.get("current_query", original_query)
         retrieved_context = state.get("retrieved_context", [])
-        intermediate_steps = state.get("intermediate_steps", [])
+        chain_of_thought = state.get("chain_of_thought", [])
+        iteration_count = state.get("iteration_count", 0)
         workflow_nodes = state.get("workflow_nodes", [])
+
+        logger.info(f"Search query: {current_query[:80]}...")
+        logger.info(f"Current context size before vector search: {len(retrieved_context)} sources")
 
         # Perform vector search
         results = self.vector_tool.search(
-            query=original_query,
+            query=current_query,
             top_k=config.VECTOR_SEARCH_TOP_K
         )
 
-        # Add cleaned results to context
+        # Add cleaned results to context with deduplication
+        existing_chunk_ids = set()
+        for ctx in retrieved_context:
+            if ctx.get("chunk_id"):
+                existing_chunk_ids.add(ctx["chunk_id"])
+
+        logger.info(f"Existing chunk IDs in context: {len(existing_chunk_ids)}")
+
+        added_count = 0
+        skipped_count = 0
         for result in results:
-            cleaned_ctx = self._clean_context_for_storage(result.model_dump())
-            retrieved_context.append(cleaned_ctx)
+            chunk_id = result.chunk_id
+            if chunk_id and chunk_id in existing_chunk_ids:
+                logger.debug(f"Skipping duplicate vector source: chunk_id={chunk_id}")
+                skipped_count += 1
+            else:
+                cleaned_ctx = self._clean_context_for_storage(result.model_dump())
+                retrieved_context.append(cleaned_ctx)
+                if chunk_id:
+                    existing_chunk_ids.add(chunk_id)
+                added_count += 1
+
+        logger.info(f"Vector search: added {added_count} new sources, skipped {skipped_count} duplicates")
+        logger.info(f"Context size after vector search: {len(retrieved_context)} sources")
+
+        # Update chain of thought with search results
+        cot_entry = f"Iteration {iteration_count} - Vector Search:\n"
+        cot_entry += f"  Query: {current_query[:80]}\n"
+        cot_entry += f"  Results: {len(results)} found, {added_count} added, {skipped_count} duplicates\n"
+        if results:
+            top_cases = set()
+            for r in results[:3]:
+                case_name = r.metadata.get("case_extract_name", "unknown")
+                if case_name:
+                    top_cases.add(case_name)
+            cot_entry += f"  Key Cases: {', '.join(list(top_cases)[:2])}\n"
+            cot_entry += f"  Top Score: {results[0].metadata.get('score', 0):.4f}"
+        else:
+            cot_entry += f"  Key Cases: None\n"
+            cot_entry += f"  Status: No results found"
+        chain_of_thought.append(cot_entry)
 
         # Create workflow node entry
         execution_order = len(workflow_nodes) + 1
@@ -241,11 +413,8 @@ class LegalRAGAgent:
         }
         workflow_nodes.append(workflow_node)
 
-        # Log the step
-        intermediate_steps.append(("vector_search", len(results)))
-
         state["retrieved_context"] = retrieved_context
-        state["intermediate_steps"] = intermediate_steps
+        state["chain_of_thought"] = chain_of_thought
         state["workflow_nodes"] = workflow_nodes
 
         logger.info(f"Vector search returned {len(results)} results")
@@ -254,26 +423,34 @@ class LegalRAGAgent:
     
     def graph_search_node(self, state: GraphState) -> GraphState:
         """
-        Tool node: Execute hybrid graph search (semantic + structured).
+        Tool node: Execute hybrid graph search (semantic + structured)
 
         Performs both semantic search (using embeddings) and structured search
         (using relationships and keywords) to provide comprehensive results.
+
+        - Uses strategy from plan_step to guide search approach
+        - Updates chain_of_thought with search results and findings
         """
         logger.info("Executing graph_search_node with hybrid search")
 
         original_query = state["original_query"]
+        current_query = state.get("current_query", original_query)
         retrieved_context = state.get("retrieved_context", [])
-        intermediate_steps = state.get("intermediate_steps", [])
+        chain_of_thought = state.get("chain_of_thought", [])
+        iteration_count = state.get("iteration_count", 0)
         workflow_nodes = state.get("workflow_nodes", [])
+
+        logger.info(f"Search query: {current_query[:80]}...")
+        logger.info(f"Current context size before graph search: {len(retrieved_context)} sources")
 
         # Perform semantic search first (using embeddings)
         logger.info("Performing semantic search on graph embeddings...")
-        semantic_results = self.graph_tool.semantic_graph_search(query=original_query, top_k=5)
+        semantic_results = self.graph_tool.semantic_graph_search(query=current_query, top_k=5)
         logger.info(f"Semantic search returned {len(semantic_results)} results")
 
         # Perform structured search (using relationships and keywords)
         logger.info("Performing structured search on graph relationships...")
-        structured_results = self.graph_tool.natural_language_search(query=original_query)
+        structured_results = self.graph_tool.natural_language_search(query=current_query)
         logger.info(f"Structured search returned {len(structured_results)} results")
 
         # Deduplicate within semantic results
@@ -291,14 +468,56 @@ class LegalRAGAgent:
         deduplicated_results = self._deduplicate_graph_results(combined_results)
         logger.info(f"After deduplication between semantic and structured: {len(deduplicated_results)} unique results")
 
-        # Add cleaned results to context
+        # Build set of existing graph node identifiers to avoid duplicates
+        existing_graph_ids = set()
+        for ctx in retrieved_context:
+            if ctx.get("type") == "graph" and isinstance(ctx.get("data"), dict):
+                node_data = ctx["data"]
+                # Extract unique identifier for graph nodes
+                case_num = node_data.get('case_number') or node_data.get('c.case_number')
+                if case_num:
+                    existing_graph_ids.add(('Case', case_num))
+                else:
+                    statute_name = node_data.get('name') or node_data.get('s.name')
+                    statute_section = node_data.get('section') or node_data.get('s.section')
+                    if statute_name and statute_section:
+                        existing_graph_ids.add(('Statute', statute_name, statute_section))
+
+        logger.info(f"Existing graph node IDs in context: {len(existing_graph_ids)}")
+
+        # Add cleaned results to context with deduplication
         chunk_ids_to_fetch = []
+        graph_added = 0
+        graph_skipped = 0
         for result in deduplicated_results:
-            cleaned_ctx = self._clean_context_for_storage(result.model_dump())
-            retrieved_context.append(cleaned_ctx)
-            # Check if result contains vector_chunk_ids
-            if result.metadata.get("vector_chunk_ids"):
-                chunk_ids_to_fetch.extend(result.metadata["vector_chunk_ids"])
+            node_data = result.data if isinstance(result.data, dict) else {}
+
+            # Check if this graph node already exists
+            case_num = node_data.get('case_number') or node_data.get('c.case_number')
+            if case_num:
+                node_id = ('Case', case_num)
+            else:
+                statute_name = node_data.get('name') or node_data.get('s.name')
+                statute_section = node_data.get('section') or node_data.get('s.section')
+                if statute_name and statute_section:
+                    node_id = ('Statute', statute_name, statute_section)
+                else:
+                    node_id = None
+
+            if node_id and node_id in existing_graph_ids:
+                logger.debug(f"Skipping duplicate graph node: {node_id}")
+                graph_skipped += 1
+            else:
+                cleaned_ctx = self._clean_context_for_storage(result.model_dump())
+                retrieved_context.append(cleaned_ctx)
+                if node_id:
+                    existing_graph_ids.add(node_id)
+                graph_added += 1
+                # Check if result contains vector_chunk_ids
+                if result.metadata.get("vector_chunk_ids"):
+                    chunk_ids_to_fetch.extend(result.metadata["vector_chunk_ids"])
+
+        logger.info(f"Graph search: added {graph_added} new sources, skipped {graph_skipped} duplicates")
 
         # If we found chunk IDs, fetch them
         vector_chunks_fetched = 0
@@ -306,9 +525,47 @@ class LegalRAGAgent:
             logger.info(f"Fetching {len(chunk_ids_to_fetch)} vector chunks from graph results")
             vector_results = self.vector_tool.fetch_by_ids(chunk_ids_to_fetch)
             vector_chunks_fetched = len(vector_results)
+
+            # Deduplicate vector chunks against existing chunk IDs
+            existing_chunk_ids = set()
+            for ctx in retrieved_context:
+                if ctx.get("chunk_id"):
+                    existing_chunk_ids.add(ctx["chunk_id"])
+
+            vector_added = 0
+            vector_skipped = 0
             for result in vector_results:
-                cleaned_ctx = self._clean_context_for_storage(result.model_dump())
-                retrieved_context.append(cleaned_ctx)
+                if result.chunk_id and result.chunk_id in existing_chunk_ids:
+                    logger.debug(f"Skipping duplicate vector chunk: {result.chunk_id}")
+                    vector_skipped += 1
+                else:
+                    cleaned_ctx = self._clean_context_for_storage(result.model_dump())
+                    retrieved_context.append(cleaned_ctx)
+                    if result.chunk_id:
+                        existing_chunk_ids.add(result.chunk_id)
+                    vector_added += 1
+
+            logger.info(f"Vector chunks: added {vector_added} new sources, skipped {vector_skipped} duplicates")
+            vector_chunks_fetched = vector_added
+
+        logger.info(f"Context size after graph search: {len(retrieved_context)} sources")
+
+        # Update chain of thought with search results
+        cot_entry = f"Iteration {iteration_count} - Graph Search:\n"
+        cot_entry += f"  Query: {current_query[:80]}\n"
+        cot_entry += f"  Results: Semantic {len(semantic_results)} → {len(dedup_semantic)} dedup, Structured {len(structured_results)} → {len(dedup_structured)} dedup\n"
+        cot_entry += f"  Added: {graph_added} graph nodes, {vector_chunks_fetched} vector chunks\n"
+        if deduplicated_results:
+            top_nodes = []
+            for r in deduplicated_results[:2]:
+                if isinstance(r.data, dict):
+                    case_num = r.data.get('case_number') or r.data.get('c.case_number')
+                    if case_num:
+                        top_nodes.append(case_num)
+            cot_entry += f"  Key Nodes: {', '.join(top_nodes) if top_nodes else 'Various'}"
+        else:
+            cot_entry += f"  Key Nodes: None"
+        chain_of_thought.append(cot_entry)
 
         # Create workflow node entry with detailed deduplication info
         execution_order = len(workflow_nodes) + 1
@@ -331,11 +588,8 @@ class LegalRAGAgent:
         }
         workflow_nodes.append(workflow_node)
 
-        # Log the step
-        intermediate_steps.append(("graph_search_hybrid", len(deduplicated_results)))
-
         state["retrieved_context"] = retrieved_context
-        state["intermediate_steps"] = intermediate_steps
+        state["chain_of_thought"] = chain_of_thought
         state["workflow_nodes"] = workflow_nodes
 
         logger.info(f"Hybrid graph search returned {len(deduplicated_results)} results")
@@ -348,14 +602,18 @@ class LegalRAGAgent:
 
         Improved evaluation logic:
         1. Requires both vector and graph search before synthesizing (for diversity)
-        2. Checks relevance of results to the query
+        2. Checks relevance of results to the query (on already-reranked top-5 sources)
         3. Only synthesizes when we have sufficient RELEVANT results
+
+        NOTE: This node now receives already-reranked context (top 5 sources from rerank_results_node)
         """
-        logger.info("Executing evaluate_results_node")
+        logger.info("=" * 80)
+        logger.info("EXECUTING EVALUATE_RESULTS_NODE")
+        logger.info("=" * 80)
 
         original_query = state["original_query"]
         retrieved_context = state.get("retrieved_context", [])
-        iteration_count = state.get("iteration_count", 0)
+        iteration_count = state.get("iteration_count", 0) + 1
         intermediate_steps = state.get("intermediate_steps", [])
         workflow_nodes = state.get("workflow_nodes", [])
 
@@ -365,6 +623,7 @@ class LegalRAGAgent:
 
         # Check iteration limit
         if iteration_count >= config.MAX_ITERATIONS:
+            logger.info(f"Current iterations {iteration_count}/{config.MAX_ITERATIONS}")
             logger.warning(f"Reached max iterations ({config.MAX_ITERATIONS}), forcing synthesis")
             state["needs_more_info"] = False
             evaluation_reason = f"Reached max iterations ({config.MAX_ITERATIONS}), forcing synthesis"
@@ -417,17 +676,31 @@ class LegalRAGAgent:
 
         # Get search types that have been tried
         search_types = [step[0] for step in intermediate_steps]
-        has_vector = "vector_search" in search_types
-        has_graph = "graph_search" in search_types
+        logger.info(f"Search types tried: {search_types}")
+        has_vector_search = "vector_search" in search_types
+        has_graph_search = "graph_search_hybrid" in search_types
 
-        logger.info(f"Search types tried: vector={has_vector}, graph={has_graph}")
+        # Also check what types of sources were actually retrieved
+        source_types = set()
+        for ctx in retrieved_context:
+            source_type = ctx.get("type", "unknown")
+            source_types.add(source_type)
+
+        logger.info(f"source_types: {source_types}")
+
+        has_vector_sources = "vector" in source_types
+        has_graph_sources = "graph" in source_types
+
+        logger.info(f"Search types tried: vector={has_vector_search}, graph={has_graph_search}")
+        logger.info(f"Source types retrieved: vector={has_vector_sources}, graph={has_graph_sources}")
         logger.info(f"Retrieved {len(retrieved_context)} sources total")
 
         # IMPORTANT: Require both search types for diversity
-        # If we only have one search type, try the other one
-        if not (has_vector and has_graph):
+        # Check if we have both search types ATTEMPTED (not just retrieved)
+        # This ensures we try both approaches even if one returns no results
+        if not (has_vector_search and has_graph_search):
             state["needs_more_info"] = True
-            evaluation_reason = f"Need both search types for diversity. Have: vector={has_vector}, graph={has_graph}"
+            evaluation_reason = f"Need both search types for diversity. Tried: vector={has_vector_search}, graph={has_graph_search}"
             decision_made = "continue"
             logger.info("Need to try both search types for diverse results")
 
@@ -443,8 +716,8 @@ class LegalRAGAgent:
                     "decision": decision_made,
                     "reason": evaluation_reason,
                     "context_count": len(retrieved_context),
-                    "has_vector": has_vector,
-                    "has_graph": has_graph,
+                    "search_types_tried": {"vector": has_vector_search, "graph": has_graph_search},
+                    "source_types_retrieved": {"vector": has_vector_sources, "graph": has_graph_sources},
                     "iteration_count": iteration_count
                 }
             }
@@ -452,10 +725,10 @@ class LegalRAGAgent:
             state["workflow_nodes"] = workflow_nodes
             return state
 
-        # Now that we have both search types, evaluate relevance
+        # Both search types data retrieved, evaluate relevance
         # Build cleaned context summary (minimal tokens)
         context_summary = f"We have {len(retrieved_context)} sources from both vector and graph search:\n\n"
-        for idx, ctx in enumerate(retrieved_context[:5]):  # Show only first 5 (was 8)
+        for idx, ctx in enumerate(retrieved_context):
             cleaned = self._extract_key_context(ctx)
             if cleaned:
                 context_summary += f"- Source {idx+1}: {cleaned}\n"
@@ -506,14 +779,18 @@ class LegalRAGAgent:
                 "decision": decision_made,
                 "reason": evaluation_reason,
                 "context_count": len(retrieved_context),
-                "has_vector": has_vector,
-                "has_graph": has_graph,
+                "search_types_tried": {"vector": has_vector_search, "graph": has_graph_search},
+                "source_types_retrieved": {"vector": has_vector_sources, "graph": has_graph_sources},
                 "iteration_count": iteration_count,
                 "llm_decision": decision
             }
         }
         workflow_nodes.append(workflow_node)
         state["workflow_nodes"] = workflow_nodes
+
+        logger.info("=" * 80)
+        logger.info(f"EVALUATE_RESULTS_NODE COMPLETE - Decision: {decision_made}")
+        logger.info("=" * 80)
 
         return state
 
@@ -523,6 +800,116 @@ class LegalRAGAgent:
         """
         needs_more = state.get("needs_more_info", False)
         return "continue" if needs_more else "synthesize"
+
+    def rerank_results_node(self, state: GraphState) -> GraphState:
+        """
+        Tool node: Rerank vector sources only using Pinecone's reranking API
+        - Only reranks vector sources (graph sources are kept as-is)
+        - Separates vector and graph sources
+        - Keeps top 5 vector sources + all graph sources
+        """
+        logger.info("=" * 80)
+        logger.info("EXECUTING RERANK_RESULTS_NODE")
+        logger.info("=" * 80)
+
+        original_query = state["original_query"]
+        retrieved_context = state.get("retrieved_context", [])
+        workflow_nodes = state.get("workflow_nodes", [])
+
+        # Convert context dicts back to Source objects
+        sources = [Source(**ctx) for ctx in retrieved_context]
+
+        # Separate vector and graph sources
+        vector_sources = [s for s in sources if s.type == "vector"]
+        graph_sources = [s for s in sources if s.type == "graph"]
+
+        logger.info(f"BEFORE RERANKING:")
+        logger.info(f"  Total sources: {len(sources)}")
+        logger.info(f"  - Vector sources: {len(vector_sources)}")
+        logger.info(f"  - Graph sources: {len(graph_sources)}")
+        logger.info(f"Query: {original_query[:100]}...")
+
+        # Rerank only vector sources and keep top 5
+        reranked_vector = []
+        if vector_sources:
+            reranked_vector = self.reranker_tool.rerank_sources(
+                query=original_query,
+                sources=vector_sources,
+                top_n=5
+            )
+
+        # Combine reranked vector sources with all graph sources
+        reranked_sources = reranked_vector + graph_sources
+
+        logger.info(f"AFTER RERANKING (Vector Only):")
+        logger.info(f"  Total sources: {len(reranked_sources)}")
+        logger.info(f"  - Vector sources (reranked): {len(reranked_vector)}")
+        logger.info(f"  - Graph sources (kept as-is): {len(graph_sources)}")
+
+        # Calculate impact metrics for vector sources only
+        vector_removed = len(vector_sources) - len(reranked_vector)
+        vector_removal_rate = (vector_removed / len(vector_sources) * 100) if vector_sources else 0
+
+        logger.info(f"RERANKING IMPACT (Vector Only):")
+        logger.info(f"  Vector sources removed: {vector_removed} ({vector_removal_rate:.1f}%)")
+        logger.info(f"  Vector context reduction: {len(vector_sources)} → {len(reranked_vector)} sources")
+
+        # Log rerank scores for vector sources
+        if reranked_vector:
+            scores = [s.metadata.get("rerank_score", 0) for s in reranked_vector]
+            avg_score = sum(scores) / len(scores)
+            logger.info(f"RERANK SCORES (Vector):")
+            logger.info(f"  Average score: {avg_score:.4f}")
+            logger.info(f"  Min score: {min(scores):.4f}")
+            logger.info(f"  Max score: {max(scores):.4f}")
+
+            # Log individual scores
+            logger.info(f"RANKED VECTOR SOURCES (top 5):")
+            for rank, source in enumerate(reranked_vector, 1):
+                score = source.metadata.get("rerank_score", 0)
+                logger.info(f"  {rank}. VECTOR (score: {score:.4f})")
+
+        # Convert reranked sources back to dicts for storage
+        reranked_context = [
+            self._clean_context_for_storage(source.model_dump())
+            for source in reranked_sources
+        ]
+
+        # Create workflow node entry with detailed impact analysis
+        execution_order = len(workflow_nodes) + 1
+        workflow_node = {
+            "node_name": "rerank_results_node",
+            "node_type": "tool",
+            "results_count": len(reranked_context),
+            "summary": f"Reranked {len(vector_sources)} vector sources → {len(reranked_vector)} selected. Kept all {len(graph_sources)} graph sources. Total: {len(reranked_context)} sources.",
+            "execution_order": execution_order,
+            "details": {
+                "vector_sources_before": len(vector_sources),
+                "vector_sources_after": len(reranked_vector),
+                "vector_sources_removed": vector_removed,
+                "vector_removal_rate_percent": round(vector_removal_rate, 1),
+                "graph_sources_kept": len(graph_sources),
+                "total_sources_after": len(reranked_context),
+                "rerank_model": "bge-reranker-v2-m3",
+                "rerank_scores": [
+                    source.metadata.get("rerank_score", 0)
+                    for source in reranked_vector
+                ],
+                "avg_rerank_score": round(sum([s.metadata.get("rerank_score", 0) for s in reranked_vector]) / len(reranked_vector), 4) if reranked_vector else 0,
+                "min_rerank_score": round(min([s.metadata.get("rerank_score", 0) for s in reranked_vector]), 4) if reranked_vector else 0,
+                "max_rerank_score": round(max([s.metadata.get("rerank_score", 0) for s in reranked_vector]), 4) if reranked_vector else 0
+            }
+        }
+        workflow_nodes.append(workflow_node)
+
+        state["retrieved_context"] = reranked_context
+        state["workflow_nodes"] = workflow_nodes
+
+        logger.info("=" * 80)
+        logger.info(f"RERANK_RESULTS_NODE COMPLETE - Selected {len(reranked_context)} sources ({len(reranked_vector)} vector + {len(graph_sources)} graph)")
+        logger.info("=" * 80)
+
+        return state
 
     def _extract_key_context(self, ctx: dict) -> str:
         """
@@ -581,47 +968,42 @@ class LegalRAGAgent:
 
     def synthesize_answer_node(self, state: GraphState) -> GraphState:
         """
-        LLM node: Generate the final answer based on retrieved context.
-        Optimized to minimize token usage by cleaning up context.
+        LLM node: Generate the final answer based on retrieved context
+
         """
-        logger.info("Executing synthesize_answer_node")
+        logger.info("=" * 80)
+        logger.info("EXECUTING SYNTHESIZE_ANSWER_NODE")
+        logger.info("=" * 80)
 
         original_query = state["original_query"]
         retrieved_context = state.get("retrieved_context", [])
+        chain_of_thought = state.get("chain_of_thought", [])
         workflow_nodes = state.get("workflow_nodes", [])
 
         # Build cleaned context for synthesis
-        vector_context = []
-        graph_context = []
+        # Note: retrieved_context should already be limited to top 5 reranked sources
+        context_items = []
+        source_types = {"vector": 0, "graph": 0}
 
-        for ctx in retrieved_context:
+        for idx, ctx in enumerate(retrieved_context):
             cleaned = self._extract_key_context(ctx)
             if cleaned:
-                if ctx.get("type") == "vector":
-                    vector_context.append(cleaned)
-                elif ctx.get("type") == "graph":
-                    graph_context.append(cleaned)
+                ctx_type = ctx.get("type", "unknown")
+                rerank_score = ctx.get("metadata", {}).get("rerank_score", "N/A")
 
-        # Build synthesis prompt with cleaned context
-        context_text = ""
+                # Include rerank score in the context
+                if isinstance(rerank_score, float):
+                    context_items.append(f"[{idx+1}] ({ctx_type.upper()}, relevance: {rerank_score:.3f}) {cleaned}")
+                else:
+                    context_items.append(f"[{idx+1}] ({ctx_type.upper()}) {cleaned}")
 
-        if vector_context:
-            context_text += "**Vector Context (from case documents):**\n"
-            # Limit to top 5 most relevant vector sources
-            for vc in vector_context[:5]:
-                context_text += f"• {vc}\n"
-            if len(vector_context) > 5:
-                context_text += f"• ... and {len(vector_context) - 5} more sources\n"
-            context_text += "\n"
+                source_types[ctx_type] = source_types.get(ctx_type, 0) + 1
 
-        if graph_context:
-            context_text += "**Graph Context (from structured data):**\n"
-            # Limit to top 5 most relevant graph sources
-            for gc in graph_context[:5]:
-                context_text += f"• {gc}\n"
-            if len(graph_context) > 5:
-                context_text += f"• ... and {len(graph_context) - 5} more sources\n"
-            context_text += "\n"
+        # Build synthesis prompt with reranked context
+        context_text = "**Top 5 Reranked Sources (by relevance):**\n\n"
+        for item in context_items:
+            context_text += f"• {item}\n"
+        context_text += "\n"
 
         system_prompt = """You are a legal research assistant specializing in Singapore Family Court cases.
 Answer the user's query based ONLY on the provided context.
@@ -650,22 +1032,27 @@ Provide a concise answer with source citations."""
             "node_name": "synthesize_answer_node",
             "node_type": "synthesis",
             "results_count": len(retrieved_context),
-            "summary": f"Generated final answer using LLM synthesis. Used {len(vector_context)} vector sources and {len(graph_context)} graph sources. Answer length: {len(answer)} characters.",
+            "summary": f"Generated final answer using LLM synthesis. Used {source_types['vector']} vector sources and {source_types['graph']} graph sources (top 5 reranked). Answer length: {len(answer)} characters.",
             "execution_order": execution_order,
             "details": {
-                "vector_sources_used": len(vector_context),
-                "graph_sources_used": len(graph_context),
+                "vector_sources_used": source_types['vector'],
+                "graph_sources_used": source_types['graph'],
                 "total_sources_used": len(retrieved_context),
                 "answer_length": len(answer),
-                "context_optimization": "Cleaned and truncated to minimize token usage"
+                "context_optimization": "Top 5 reranked sources using Pinecone's reranking API"
             }
         }
         workflow_nodes.append(workflow_node)
 
         state["response"] = answer
+        state["chain_of_thought"] = chain_of_thought  # v3.0: include CoT in state
         state["workflow_nodes"] = workflow_nodes
 
-        logger.info(f"Generated final answer with cleaned context ({len(vector_context)} vector + {len(graph_context)} graph sources)")
+        logger.info(f"Generated final answer with reranked context ({source_types['vector']} vector + {source_types['graph']} graph sources)")
+        logger.info(f"Chain of thought entries: {len(chain_of_thought)}")
+        logger.info("=" * 80)
+        logger.info("SYNTHESIZE_ANSWER_NODE COMPLETE")
+        logger.info("=" * 80)
 
         return state
 
@@ -827,45 +1214,50 @@ Provide a concise answer with source citations."""
 
     def run(self, query: str) -> Dict[str, Any]:
         """
-        Run the agent on a query.
+        Run the agent on a query
 
         Args:
             query: User's question
 
         Returns:
-            Dictionary with 'answer', 'sources', and 'workflow_nodes'
+            Dictionary with 'answer', 'sources', 'workflow_nodes', and 'chain_of_thought'
         """
         logger.info(f"Running agent for query: {query[:100]}...")
 
         # Initialize state
         initial_state: GraphState = {
             "original_query": query,
-            "intermediate_steps": [],
+            "current_query": None,
+            "chain_of_thought": [],  # v3.0: new field
+            "strategy": None,  # v3.0: new field
             "retrieved_context": [],
             "plan": None,
             "response": None,
             "needs_more_info": True,
             "iteration_count": 0,
             "workflow_nodes": [],
+            "intermediate_steps": [],
         }
 
         # Run the graph
-        final_state = self.graph.invoke(initial_state)
+        final_state = self.graph.invoke(initial_state, config={"recursion_limit": 100})
 
         # Extract results
         answer = final_state.get("response", "I couldn't generate an answer.")
         retrieved_context = final_state.get("retrieved_context", [])
         workflow_nodes = final_state.get("workflow_nodes", [])
+        chain_of_thought = final_state.get("chain_of_thought", [])  # v3.0: extract CoT
 
         # Convert context to Source objects
         sources = [Source(**ctx) for ctx in retrieved_context]
 
-        logger.info(f"Agent completed with {len(sources)} sources and {len(workflow_nodes)} workflow nodes")
+        logger.info(f"Agent completed with {len(sources)} sources, {len(workflow_nodes)} workflow nodes, and {len(chain_of_thought)} CoT entries")
 
         return {
             "answer": answer,
             "sources": sources,
-            "workflow_nodes": workflow_nodes
+            "workflow_nodes": workflow_nodes,
+            "chain_of_thought": chain_of_thought,  # v3.0: include CoT in response
         }
 
 

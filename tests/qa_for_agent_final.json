@@ -1,0 +1,2446 @@
+[
+  {
+    "id": 1,
+    "question": "In [2024] SGHCF 19, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 19, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the appellant did not hire a licensed valuer\nC. Because no attempt was made to file the notice\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "In [2024] SGHCF 19, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 19, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the respondent objected to disclosure\nC. Because the applicant provided a proper accountant's valuation\nD. Because there was an unreasonable delay of 18 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because there was an unreasonable delay of 18 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 3,
+    "question": "In [2024] SGHCF 3, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 3, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the parties reached an out-of-court settlement\nC. Because the application was frivolous or vexatious\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the application was frivolous or vexatious",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 4,
+    "question": "In [2024] SGHCF 3, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 3, what order did the court make?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because he was hospitalized and unable to act\nC. Because of procedural non-compliance\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because of procedural non-compliance",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 5,
+    "question": "In [2024] SGHCF 15, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 15, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the parties reached an out-of-court settlement\nC. Because no attempt was made to file the notice\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "In [2024] SGHCF 15, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 15, what order did the court make?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Because the respondent objected to disclosure\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 7,
+    "question": "In WQX v WQW, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WQX v WQW, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the valuation report was accepted by the Court below\nB. Because there was an unreasonable delay and poor prospects of success\nC. Because the Respondent’s counsel requested more time\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the valuation report was accepted by the Court below",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 8,
+    "question": "In WQX v WQW, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WQX v WQW, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the parties reached an out-of-court settlement\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "In [2025] SGHCF 45, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 45, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the evidence was deemed inadmissible\nC. Because he was hospitalized and unable to act\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 10,
+    "question": "In [2025] SGHCF 45, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 45, what order did the court make?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Because the valuation report was accepted by the Court below\nC. Because the Respondent’s counsel requested more time\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 11,
+    "question": "In XNM v XNN, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XNM v XNN, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the parties reached an out-of-court settlement\nC. Because the application was frivolous or vexatious\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the application was frivolous or vexatious",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "In [2025] SGHCF 42, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 42, what order did the court make?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because valuation must be assessed as of the ancillary matters date\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 13,
+    "question": "In [2025] SGHCF 1, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 1, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the appeal lacked merit\nC. Because the parties reached an out-of-court settlement\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the appeal lacked merit",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 14,
+    "question": "In [2025] SGHCF 1, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 1, what order did the court make?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the valuation report was accepted by the Court below\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 15,
+    "question": "In [2024] SGHCF 37, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 37, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appeal lacked merit\nB. Because the respondent objected to disclosure\nC. Because the application was frivolous or vexatious\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appeal lacked merit",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the application was frivolous or vexatious",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 16,
+    "question": "In XEB v XEC, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XEB v XEC, what order did the court make?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because of procedural non-compliance\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because of procedural non-compliance",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 17,
+    "question": "In VMG v VMH, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VMG v VMH, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Applicant had already filed through Legal Aid\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "In VMG v VMH, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VMG v VMH, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the respondent objected to disclosure\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 19,
+    "question": "In WVN v WVO, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WVN v WVO, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the applicant provided a proper accountant's valuation\nC. Because his lawyer withdrew from the case unexpectedly\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 20,
+    "question": "In WVN v WVO, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WVN v WVO, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because the appellant did not hire a licensed valuer\nC. Because no attempt was made to file the notice\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "In WPA v WPB, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WPA v WPB, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the appellant did not hire a licensed valuer\nC. Because the Applicant failed to prove the claim\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "In WPA v WPB, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WPA v WPB, what order did the court make?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Judge exercised discretion to refuse leave\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the application was frivolous or vexatious\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the application was frivolous or vexatious",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 23,
+    "question": "In WWG v WWH, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WWG v WWH, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the Judge exercised discretion to refuse leave\nC. Because the valuation report was accepted by the Court below\nD. Because valuation must be assessed as of the ancillary matters date\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because valuation must be assessed as of the ancillary matters date",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 24,
+    "question": "In [2024] SGHCF 26, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 26, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the parties agreed to mediation\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the parties agreed to mediation",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "In XIW v XIX, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIW v XIX, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appeal lacked merit\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Court found jurisdictional issues\nD. Because the valuation report was accepted by the Court below\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appeal lacked merit",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the valuation report was accepted by the Court below",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "In XIW v XIX, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIW v XIX, what order did the court make?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Dismissed the application and ordered costs to be paid by the Applicant\nC. Because there was an unreasonable delay and poor prospects of success\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 27,
+    "question": "In XFF v XFG, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XFF v XFG, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Because the evidence was deemed inadmissible\nC. Whether an extension of time to file an appeal should be allowed\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 28,
+    "question": "In [2024] SGHCF 45, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 45, what order did the court make?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the valuation report was accepted by the Court below\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 29,
+    "question": "In [2025] SGHCF 37, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 37, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because of procedural non-compliance\nB. Because the appellant did not hire a licensed valuer\nC. Because the application was frivolous or vexatious\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because of procedural non-compliance",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because the application was frivolous or vexatious",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 30,
+    "question": "In XOA v XOB, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XOA v XOB, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because the applicant provided a proper accountant's valuation\nC. Because of procedural non-compliance\nD. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because of procedural non-compliance",
+      "D": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 31,
+    "question": "In XJO v XJP, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XJO v XJP, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because no attempt was made to file the notice\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because no attempt was made to file the notice",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 32,
+    "question": "In XJO v XJP, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XJO v XJP, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nC. Because the respondent objected to disclosure\nD. Because the Applicant failed to prove the claim\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the Applicant failed to prove the claim",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 33,
+    "question": "In [2025] SGHCF 22, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 22, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the appeal lacked merit\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 34,
+    "question": "In other v WV, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In other v WV, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because the Court found jurisdictional issues\nC. Because he was hospitalized and unable to act\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because the Court found jurisdictional issues",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 35,
+    "question": "In [2024] SGHCF 42, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 42, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because of procedural non-compliance\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because of procedural non-compliance",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 36,
+    "question": "In XBF v XBE, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XBF v XBE, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the evidence was deemed inadmissible\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the evidence was deemed inadmissible",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 37,
+    "question": "In XEW v XE, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XEW v XE, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because there was an unreasonable delay and poor prospects of success\nC. Whether an extension of time to file an appeal should be allowed\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 38,
+    "question": "In XEW v XE, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XEW v XE, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the applicant provided a proper accountant's valuation\nC. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 39,
+    "question": "In WPK v WPJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WPK v WPJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because the Judge exercised discretion to refuse leave\nC. Because of procedural non-compliance\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because of procedural non-compliance",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 40,
+    "question": "In WPK v WPJ, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WPK v WPJ, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the applicant provided a proper accountant's valuation\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 41,
+    "question": "In VHK v VHL, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VHK v VHL, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because of procedural non-compliance\nC. Because the Applicant failed to prove the claim\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because of procedural non-compliance",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 42,
+    "question": "In [2024] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the appeal lacked merit\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 43,
+    "question": "In [2024] SGHCF 13, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 13, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because the evidence was deemed inadmissible\nC. Because valuation must be assessed as of the ancillary matters date\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because valuation must be assessed as of the ancillary matters date",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 44,
+    "question": "In [2024] SGHCF 13, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 13, what order did the court make?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Dismissed the application and ordered costs to be paid by the Applicant\nC. Because there was an unreasonable delay and poor prospects of success\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "In [2025] SGHCF 9, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 9, why did the Applicant seek an extension of time to file a Notice of Appeal?\n\n**Choices**:\nA. Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time\nB. Because there was an unreasonable delay and poor prospects of success\nC. Because the Court found jurisdictional issues\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "In thers v WUR, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In thers v WUR, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nB. Because of procedural non-compliance\nC. Because the applicant provided a proper accountant's valuation\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "B": "Because of procedural non-compliance",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 47,
+    "question": "In thers v WUR, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In thers v WUR, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because of procedural non-compliance\nC. Because he was hospitalized and unable to act\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because of procedural non-compliance",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 48,
+    "question": "In [2025] SGHCF 46, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 46, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because his lawyer withdrew from the case unexpectedly\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because his lawyer withdrew from the case unexpectedly",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 49,
+    "question": "In [2024] SGHCF 14, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 14, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because no attempt was made to file the notice\nC. Whether an extension of time to file an appeal should be allowed\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because no attempt was made to file the notice",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 50,
+    "question": "In VEG v VEF, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VEG v VEF, what order did the court make?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the parties agreed to mediation\nC. Because the appellant did not hire a licensed valuer\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 51,
+    "question": "In WZT v WZU, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WZT v WZU, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the Judge exercised discretion to refuse leave\nC. Because the Applicant had already filed through Legal Aid\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 52,
+    "question": "In WZT v WZU, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WZT v WZU, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because he was hospitalized and unable to act\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the application was frivolous or vexatious\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the application was frivolous or vexatious",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 53,
+    "question": "In ANJ v ANK, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In ANJ v ANK, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because of procedural non-compliance\nB. Because the appeal lacked merit\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because of procedural non-compliance",
+      "B": "Because the appeal lacked merit",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 54,
+    "question": "In ANJ v ANK, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In ANJ v ANK, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because the Applicant had already filed through Legal Aid\nD. Because the Applicant failed to prove the claim\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the Applicant failed to prove the claim",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 55,
+    "question": "In WXO v WXP, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WXO v WXP, why did the Applicant seek an extension of time to file a Notice of Appeal?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time\nC. Because the appellant did not hire a licensed valuer\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "In [2024] SGHCF 44, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 44, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Because the parties reached an out-of-court settlement\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the valuation report was accepted by the Court below\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the valuation report was accepted by the Court below",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 57,
+    "question": "In [2024] SGHCF 4, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 4, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the parties reached an out-of-court settlement\nC. Whether an extension of time to file an appeal should be allowed\nD. Because of procedural non-compliance\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because of procedural non-compliance",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 58,
+    "question": "In VQF v VQG, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VQF v VQG, what order did the court make?\n\n**Choices**:\nA. Because the parties agreed to mediation\nB. Because he was hospitalized and unable to act\nC. Because the Judge exercised discretion to refuse leave\nD. Because the application was frivolous or vexatious\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties agreed to mediation",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because the application was frivolous or vexatious",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 59,
+    "question": "In [2025] SGHCF 19, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 19, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Because no attempt was made to file the notice\nC. Because the appellant did not hire a licensed valuer\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Because no attempt was made to file the notice",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 60,
+    "question": "In TOW v TOV, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In TOW v TOV, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because the parties reached an out-of-court settlement\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 61,
+    "question": "In WUI v WUJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WUI v WUJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the valuation report was accepted by the Court below\nD. Because valuation must be assessed as of the ancillary matters date\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because valuation must be assessed as of the ancillary matters date",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 62,
+    "question": "In WUI v WUJ, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WUI v WUJ, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because the respondent objected to disclosure\nC. Because the Respondent’s counsel requested more time\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 63,
+    "question": "In [2024] SGHCF 43, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 43, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the evidence was deemed inadmissible\nC. Because the applicant provided a proper accountant's valuation\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 64,
+    "question": "In [2024] SGHCF 43, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 43, what order did the court make?\n\n**Choices**:\nA. Because the appeal lacked merit\nB. Because he was hospitalized and unable to act\nC. Because the parties agreed to mediation\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appeal lacked merit",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the parties agreed to mediation",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 65,
+    "question": "In WWQ v WWR, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WWQ v WWR, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the application was frivolous or vexatious\nC. Because the parties reached an out-of-court settlement\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 66,
+    "question": "In [2025] SGHCF 3, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 3, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because the Judge exercised discretion to refuse leave\nC. Because no attempt was made to file the notice\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 67,
+    "question": "In WUA v WUB, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WUA v WUB, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because the Applicant had already filed through Legal Aid\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the valuation report was accepted by the Court below\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because the Applicant had already filed through Legal Aid",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the valuation report was accepted by the Court below",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 68,
+    "question": "In [2024] SGHCF 10, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 10, what order did the court make?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the respondent objected to disclosure\nC. Because the parties reached an out-of-court settlement\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 69,
+    "question": "In WGM v WGN, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WGM v WGN, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the Respondent’s counsel requested more time\nC. Because valuation must be assessed as of the ancillary matters date\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because valuation must be assessed as of the ancillary matters date",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 70,
+    "question": "In [2025] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because of procedural non-compliance\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because of procedural non-compliance",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 71,
+    "question": "In VRJ v VRK, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VRJ v VRK, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because there was an unreasonable delay and poor prospects of success\nC. Because the Applicant failed to prove the claim\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 72,
+    "question": "In [2024] SGHCF 29, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 29, what order did the court make?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Because the evidence was deemed inadmissible\nC. Because he was hospitalized and unable to act\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 73,
+    "question": "In [2024] SGHCF 9, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 9, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the respondent objected to disclosure\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 74,
+    "question": "In WPV v WPW, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WPV v WPW, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because the respondent objected to disclosure\nC. Because no attempt was made to file the notice\nD. Because the Applicant failed to prove the claim\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because the Applicant failed to prove the claim",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 75,
+    "question": "In [2025] SGHCF 12, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 12, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the valuation report was accepted by the Court below\nC. Because there was an unreasonable delay and poor prospects of success\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 76,
+    "question": "In WVZ v WVY, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WVZ v WVY, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because he was hospitalized and unable to act\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 77,
+    "question": "In XIK v XIL, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIK v XIL, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the valuation report was accepted by the Court below\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 78,
+    "question": "In XIK v XIL, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIK v XIL, what order did the court make?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Dismissed the application and ordered costs to be paid by the Applicant\nC. Because the Applicant had already filed through Legal Aid\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 79,
+    "question": "In WTU v WTV, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTU v WTV, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because he was hospitalized and unable to act\nC. Because the respondent objected to disclosure\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 80,
+    "question": "In WTU v WTV, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTU v WTV, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the respondent objected to disclosure\nC. Because the Court found jurisdictional issues\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 81,
+    "question": "In XLK v XLJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XLK v XLJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appeal lacked merit\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Judge exercised discretion to refuse leave\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appeal lacked merit",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 82,
+    "question": "In XLK v XLJ, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XLK v XLJ, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the applicant provided a proper accountant's valuation\nC. Because there was an unreasonable delay of 15 days and the Applicant's prospects of appeal were between slim and none\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because there was an unreasonable delay of 15 days and the Applicant's prospects of appeal were between slim and none",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 83,
+    "question": "In [2025] SGHCF 11, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 11, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the Court found jurisdictional issues\nC. Because the Respondent’s counsel requested more time\nD. Because the Applicant failed to prove the claim\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the Court found jurisdictional issues",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because the Applicant failed to prove the claim",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 84,
+    "question": "In XDJ v XDK, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XDJ v XDK, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because the parties reached an out-of-court settlement\nC. Because the Respondent’s counsel requested more time\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 85,
+    "question": "In [2024] SGHCF 17, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 17, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because the parties reached an out-of-court settlement\nC. Whether an extension of time to file an appeal should be allowed\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 86,
+    "question": "In [2024] SGHCF 17, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 17, what order did the court make?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because there was an unreasonable delay and poor prospects of success\nC. Because no attempt was made to file the notice\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 87,
+    "question": "In XHG v XHH, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XHG v XHH, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because his lawyer withdrew from the case unexpectedly\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because his lawyer withdrew from the case unexpectedly",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 88,
+    "question": "In [2025] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because he was hospitalized and unable to act\nC. Because the Applicant failed to prove the claim\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 89,
+    "question": "In [2024] SGHCF 22, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 22, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because the valuation report was accepted by the Court below\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 90,
+    "question": "In WXA v WXB, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WXA v WXB, what order did the court make?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the appellant did not hire a licensed valuer\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 91,
+    "question": "In WTP v WTQ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTP v WTQ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because the parties agreed to mediation\nC. Because no attempt was made to file the notice\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 92,
+    "question": "In WTP v WTQ, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTP v WTQ, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the evidence was deemed inadmissible\nC. Because the valuation report was accepted by the Court below\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 93,
+    "question": "In [2024] SGHCF 47, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 47, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Court found jurisdictional issues\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Court found jurisdictional issues",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 94,
+    "question": "In [2024] SGHCF 47, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 47, what order did the court make?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because the parties agreed to mediation\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because the parties agreed to mediation",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 95,
+    "question": "In [2024] SGHCF 27, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 27, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because he was hospitalized and unable to act\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 96,
+    "question": "In [2024] SGHCF 27, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 27, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because the appeal lacked merit\nC. Because the Judge exercised discretion to refuse leave\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because the appeal lacked merit",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 97,
+    "question": "In TTZ v TT, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In TTZ v TT, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Applicant had already filed through Legal Aid\nD. Because his lawyer withdrew from the case unexpectedly\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because his lawyer withdrew from the case unexpectedly",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 98,
+    "question": "In TTZ v TT, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In TTZ v TT, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the Judge exercised discretion to refuse leave\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because valuation must be assessed as of the ancillary matters date\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because valuation must be assessed as of the ancillary matters date",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 99,
+    "question": "In XII v XIJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XII v XIJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the Respondent’s counsel requested more time\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 100,
+    "question": "In [2025] SGHCF 48, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 48, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Because the Respondent’s counsel requested more time\nC. Because the Applicant had already filed through Legal Aid\nD. Because there was an unreasonable delay of 30 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because there was an unreasonable delay of 30 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 101,
+    "question": "In case_extract_2025_43, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In case_extract_2025_43, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the parties agreed to mediation\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the parties agreed to mediation",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 102,
+    "question": "In [2025] SGHCF 43, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 43, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the application was frivolous or vexatious\nC. Because the Applicant failed to prove the claim\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 103,
+    "question": "In [2025] SGHCF 33, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 33, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Applicant failed to prove the claim\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 104,
+    "question": "In XNI v XNJ, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XNI v XNJ, what order did the court make?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the respondent objected to disclosure\nC. Because there was an unreasonable delay and poor prospects of success\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 105,
+    "question": "In WTS v WTR, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTS v WTR, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties agreed to mediation\nB. Whether an extension of time to file an appeal should be allowed\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties agreed to mediation",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 106,
+    "question": "In [2024] SGHCF 33, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 33, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the Applicant failed to prove the claim\nC. Because he was hospitalized and unable to act\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 107,
+    "question": "In XJI v XJJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XJI v XJJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the parties agreed to mediation\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the parties agreed to mediation",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 108,
+    "question": "In [2025] SGHCF 17, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 17, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the parties reached an out-of-court settlement\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the application was frivolous or vexatious\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the application was frivolous or vexatious",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 109,
+    "question": "In [2024] SGHCF 36, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 36, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the respondent objected to disclosure\nC. Because the Court found jurisdictional issues\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 110,
+    "question": "In XBO v XBP, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XBO v XBP, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the Judge exercised discretion to refuse leave\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 111,
+    "question": "In VZJ v VZK, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VZJ v VZK, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Applicant had already filed through Legal Aid\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 112,
+    "question": "In [2024] SGHCF 16, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 16, what order did the court make?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Dismissed the application and ordered costs to be paid by the Applicant\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 113,
+    "question": "In [2025] SGHCF 28, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 28, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Court found jurisdictional issues\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 114,
+    "question": "In [2025] SGHCF 28, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 28, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because the parties reached an out-of-court settlement\nC. Because valuation must be assessed as of the ancillary matters date\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because valuation must be assessed as of the ancillary matters date",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 115,
+    "question": "In other v WZJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In other v WZJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the respondent objected to disclosure\nC. Because the parties agreed to mediation\nD. Because valuation must be assessed as of the ancillary matters date\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the parties agreed to mediation",
+      "D": "Because valuation must be assessed as of the ancillary matters date",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 116,
+    "question": "In [2024] SGHCF 39, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 39, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because the application was frivolous or vexatious\nC. Because the appellant did not hire a licensed valuer\nD. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 117,
+    "question": "In [2024] SGHCF 12, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 12, why did the Applicant seek an extension of time to file a Notice of Appeal?\n\n**Choices**:\nA. Because the Respondent’s counsel requested more time\nB. Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time\nC. Because the applicant provided a proper accountant's valuation\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Respondent’s counsel requested more time",
+      "B": "Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 118,
+    "question": "In AYM v AYL, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In AYM v AYL, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because he was hospitalized and unable to act\nC. Because the appellant did not hire a licensed valuer\nD. Because the respondent objected to disclosure\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because he was hospitalized and unable to act",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Because the respondent objected to disclosure",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 119,
+    "question": "In WWI v WWJ, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WWI v WWJ, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Whether an extension of time to file an appeal should be allowed\nC. Because valuation must be assessed as of the ancillary matters date\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because valuation must be assessed as of the ancillary matters date",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 120,
+    "question": "In WWI v WWJ, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WWI v WWJ, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because there was an unreasonable delay and poor prospects of success\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 121,
+    "question": "In XIS v XIT, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIS v XIT, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because the parties agreed to mediation\nC. Because no attempt was made to file the notice\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 122,
+    "question": "In XIS v XIT, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIS v XIT, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 123,
+    "question": "In WRT v WRU, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WRT v WRU, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the appeal lacked merit\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the appeal lacked merit",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 124,
+    "question": "In [2024] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 23, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Because the Applicant had already filed through Legal Aid\nC. Because the valuation report was accepted by the Court below\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Because the Applicant had already filed through Legal Aid",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 125,
+    "question": "In [2025] SGHCF 20, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 20, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because the applicant provided a proper accountant's valuation\nC. Because there was an unreasonable delay and poor prospects of success\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because there was an unreasonable delay and poor prospects of success",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 126,
+    "question": "In [2025] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because of procedural non-compliance\nB. Because there was an unreasonable delay of 28 days and the Applicant's prospects of appeal were between slim and none\nC. Because he was hospitalized and unable to act\nD. Because the Judge exercised discretion to refuse leave\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because of procedural non-compliance",
+      "B": "Because there was an unreasonable delay of 28 days and the Applicant's prospects of appeal were between slim and none",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because the Judge exercised discretion to refuse leave",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 127,
+    "question": "In TAG v TAH, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In TAG v TAH, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the application was frivolous or vexatious\nC. Because the Court found jurisdictional issues\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 128,
+    "question": "In [2025] SGHCF 29, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 29, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the valuation report was accepted by the Court below\nB. Because the parties agreed to mediation\nC. Because the Judge exercised discretion to refuse leave\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the valuation report was accepted by the Court below",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 129,
+    "question": "In WXW v WX, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WXW v WX, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the Applicant failed to prove the claim\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 130,
+    "question": "In [2024] SGHCF 24, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 24, what order did the court make?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the Applicant failed to prove the claim\nC. Because no attempt was made to file the notice\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 131,
+    "question": "In [2025] SGHCF 15, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 15, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because the parties reached an out-of-court settlement\nC. Because the Applicant had already filed through Legal Aid\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 132,
+    "question": "In [2025] SGHCF 15, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 15, what order did the court make?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the valuation report was accepted by the Court below\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 133,
+    "question": "In [2025] SGHCF 7, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 7, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties agreed to mediation\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the applicant provided a proper accountant's valuation\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties agreed to mediation",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 134,
+    "question": "In [2025] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 7, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the Applicant failed to prove the claim\nC. Because the appeal lacked merit\nD. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Because the appeal lacked merit",
+      "D": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 135,
+    "question": "In WYH v WYG, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WYH v WYG, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the respondent objected to disclosure\nB. Because the application was frivolous or vexatious\nC. Because the applicant provided a proper accountant's valuation\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the respondent objected to disclosure",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 136,
+    "question": "In WYH v WYG, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WYH v WYG, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the Applicant failed to prove the claim\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 137,
+    "question": "In [2024] SGHCF 5, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 5, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the applicant provided a proper accountant's valuation\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 138,
+    "question": "In [2024] SGHCF 5, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 5, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Applicant failed to prove the claim\nC. Because the applicant provided a proper accountant's valuation\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Applicant failed to prove the claim",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 139,
+    "question": "In WQG v WQF, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WQG v WQF, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the Applicant had already filed through Legal Aid\nC. Because the respondent objected to disclosure\nD. Because the valuation report was accepted by the Court below\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the Applicant had already filed through Legal Aid",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the valuation report was accepted by the Court below",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 140,
+    "question": "In WQG v WQF, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WQG v WQF, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the appeal lacked merit\nC. Because the Respondent’s counsel requested more time\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the appeal lacked merit",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 141,
+    "question": "In [2024] SGHCF 20, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 20, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because no attempt was made to file the notice\nC. Because he was hospitalized and unable to act\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because no attempt was made to file the notice",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 142,
+    "question": "In [2024] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 20, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because he was hospitalized and unable to act\nB. Because the evidence was deemed inadmissible\nC. Because the valuation report was accepted by the Court below\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because he was hospitalized and unable to act",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 143,
+    "question": "In [2024] SGHCF 40, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 40, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the Judge exercised discretion to refuse leave\nC. Because the parties agreed to mediation\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because the parties agreed to mediation",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 144,
+    "question": "In WTL v WTM, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WTL v WTM, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the evidence was deemed inadmissible\nC. Because the appellant did not hire a licensed valuer\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Because the appellant did not hire a licensed valuer",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 145,
+    "question": "In WVG v WV, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WVG v WV, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the parties reached an out-of-court settlement\nC. Because the Court found jurisdictional issues\nD. Because of procedural non-compliance\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because of procedural non-compliance",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 146,
+    "question": "In WVG v WV, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WVG v WV, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay of 50 days and the Applicant's prospects of appeal were between slim and none\nB. Because the application was frivolous or vexatious\nC. Because the Applicant failed to prove the claim\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay of 50 days and the Applicant's prospects of appeal were between slim and none",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 147,
+    "question": "In XAT v XAU, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XAT v XAU, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Because the valuation report was accepted by the Court below\nC. Whether an extension of time to file an appeal should be allowed\nD. Because he was hospitalized and unable to act\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because he was hospitalized and unable to act",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 148,
+    "question": "In XAT v XAU, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XAT v XAU, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the applicant provided a proper accountant's valuation\nC. Because the parties reached an out-of-court settlement\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 149,
+    "question": "In [2025] SGHCF 31, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 31, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the appeal lacked merit\nC. Because the parties reached an out-of-court settlement\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the appeal lacked merit",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 150,
+    "question": "In WJG v WJH, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WJG v WJH, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because the Applicant had already filed through Legal Aid\nC. Because the Respondent’s counsel requested more time\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because the Applicant had already filed through Legal Aid",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 151,
+    "question": "In XHG v XHH, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XHG v XHH, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the parties agreed to mediation\nD. Because the applicant provided a proper accountant's valuation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the parties agreed to mediation",
+      "D": "Because the applicant provided a proper accountant's valuation",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 152,
+    "question": "In XHG v XHH, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XHG v XHH, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the valuation report was accepted by the Court below\nD. Because the appeal lacked merit\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the valuation report was accepted by the Court below",
+      "D": "Because the appeal lacked merit",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 153,
+    "question": "In [2025] SGHCF 35, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 35, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Whether an extension of time to file an appeal should be allowed\nC. Because he was hospitalized and unable to act\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 154,
+    "question": "In [2025] SGHCF 35, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 35, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because the Judge exercised discretion to refuse leave\nC. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nD. Because the Respondent’s counsel requested more time\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because the Judge exercised discretion to refuse leave",
+      "C": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "D": "Because the Respondent’s counsel requested more time",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 155,
+    "question": "In XIB v XIA, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XIB v XIA, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant had already filed through Legal Aid\nB. Because the evidence was deemed inadmissible\nC. Whether an extension of time to file an appeal should be allowed\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant had already filed through Legal Aid",
+      "B": "Because the evidence was deemed inadmissible",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 156,
+    "question": "In [2025] SGHCF 40, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 40, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the valuation report was accepted by the Court below\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because the evidence was deemed inadmissible\nD. Because there was an unreasonable delay of 7 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the valuation report was accepted by the Court below",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because the evidence was deemed inadmissible",
+      "D": "Because there was an unreasonable delay of 7 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 157,
+    "question": "In [2025] SGHCF 32, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 32, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties agreed to mediation\nB. Whether an extension of time to file an appeal should be allowed\nC. Because the Judge exercised discretion to refuse leave\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties agreed to mediation",
+      "B": "Whether an extension of time to file an appeal should be allowed",
+      "C": "Because the Judge exercised discretion to refuse leave",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 158,
+    "question": "In [2025] SGHCF 32, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 32, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because the Respondent’s counsel requested more time\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because there was an unreasonable delay and poor prospects of success\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because there was an unreasonable delay and poor prospects of success",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 159,
+    "question": "In [2025] SGHCF 49, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 49, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the Respondent’s counsel requested more time\nC. Because the parties reached an out-of-court settlement\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 160,
+    "question": "In [2025] SGHCF 49, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 49, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because there was an unreasonable delay of 21 days and the Applicant's prospects of appeal were between slim and none\nC. Because the Respondent’s counsel requested more time\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because there was an unreasonable delay of 21 days and the Applicant's prospects of appeal were between slim and none",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 161,
+    "question": "In [2024] SGHCF 30, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 30, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because his lawyer withdrew from the case unexpectedly\nC. Because the appeal lacked merit\nD. Because the Judge exercised discretion to refuse leave\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because his lawyer withdrew from the case unexpectedly",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the Judge exercised discretion to refuse leave",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 162,
+    "question": "In [2024] SGHCF 30, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 30, what order did the court make?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because the Respondent’s counsel requested more time\nC. Because the applicant provided a proper accountant's valuation\nD. Because the appellant did not hire a licensed valuer\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because the applicant provided a proper accountant's valuation",
+      "D": "Because the appellant did not hire a licensed valuer",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 163,
+    "question": "In [2025] SGHCF 34, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 34, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Whether an extension of time to file an appeal should be allowed\nB. Because the respondent objected to disclosure\nC. Because the Applicant had already filed through Legal Aid\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Whether an extension of time to file an appeal should be allowed",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the Applicant had already filed through Legal Aid",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 164,
+    "question": "In XML v XMM, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XML v XMM, what order did the court make?\n\n**Choices**:\nA. Because the evidence was deemed inadmissible\nB. Because the valuation report was accepted by the Court below\nC. Dismissed the application and ordered costs to be paid by the Applicant\nD. Because the Court found jurisdictional issues\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the evidence was deemed inadmissible",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "D": "Because the Court found jurisdictional issues",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 165,
+    "question": "In [2025] SGHCF 30, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 30, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because the valuation report was accepted by the Court below\nC. Because the Court found jurisdictional issues\nD. Because the Applicant failed to prove the claim\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because the valuation report was accepted by the Court below",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the Applicant failed to prove the claim",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 166,
+    "question": "In XCV v XC, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XCV v XC, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because no attempt was made to file the notice\nB. Because the Respondent’s counsel requested more time\nC. Because the respondent objected to disclosure\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because no attempt was made to file the notice",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 167,
+    "question": "In XKT v XKU, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XKT v XKU, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the appellant did not hire a licensed valuer\nC. Because the parties reached an out-of-court settlement\nD. Because valuation must be assessed as of the ancillary matters date\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because valuation must be assessed as of the ancillary matters date",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 168,
+    "question": "In [2025] SGHCF 27, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 27, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the appellant did not hire a licensed valuer\nC. Because the Applicant failed to prove the claim\nD. Because there was an unreasonable delay of 21 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because the Applicant failed to prove the claim",
+      "D": "Because there was an unreasonable delay of 21 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 169,
+    "question": "In [2024] SGHCF 2, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 2, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the applicant provided a proper accountant's valuation\nC. Because no attempt was made to file the notice\nD. Whether an extension of time to file an appeal should be allowed\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Whether an extension of time to file an appeal should be allowed",
+      "E": "Unknown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 170,
+    "question": "In [2024] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 2, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because of procedural non-compliance\nB. Because the Respondent’s counsel requested more time\nC. Because there was an unreasonable delay of 10 days and the Applicant's prospects of appeal were between slim and none\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because of procedural non-compliance",
+      "B": "Because the Respondent’s counsel requested more time",
+      "C": "Because there was an unreasonable delay of 10 days and the Applicant's prospects of appeal were between slim and none",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 171,
+    "question": "In [2024] SGHCF 1, why did the Applicant seek an extension of time to file a Notice of Appeal?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 1, why did the Applicant seek an extension of time to file a Notice of Appeal?\n\n**Choices**:\nA. Because the parties agreed to mediation\nB. Because the applicant provided a proper accountant's valuation\nC. Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time\nD. Because the evidence was deemed inadmissible\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties agreed to mediation",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because he claimed he did not know that he had to file, or how to file, a Notice of Appeal within the stipulated time",
+      "D": "Because the evidence was deemed inadmissible",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 172,
+    "question": "In [2024] SGHCF 1, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 1, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the applicant provided a proper accountant's valuation\nB. Because the parties agreed to mediation\nC. Because the evidence was deemed inadmissible\nD. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the applicant provided a proper accountant's valuation",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because the evidence was deemed inadmissible",
+      "D": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 173,
+    "question": "In [2025] SGHCF 26, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 26, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because valuation must be assessed as of the ancillary matters date\nB. Because no attempt was made to file the notice\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the valuation report was accepted by the Court below\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because valuation must be assessed as of the ancillary matters date",
+      "B": "Because no attempt was made to file the notice",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the valuation report was accepted by the Court below",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 174,
+    "question": "In XCQ v XCP, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In XCQ v XCP, what order did the court make?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the appellant did not hire a licensed valuer\nC. Because no attempt was made to file the notice\nD. Dismissed the application and ordered costs to be paid by the Applicant\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the appellant did not hire a licensed valuer",
+      "C": "Because no attempt was made to file the notice",
+      "D": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 175,
+    "question": "In VBL v VBM, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VBL v VBM, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the appellant did not hire a licensed valuer\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because he was hospitalized and unable to act\nD. Because of procedural non-compliance\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the appellant did not hire a licensed valuer",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because he was hospitalized and unable to act",
+      "D": "Because of procedural non-compliance",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 176,
+    "question": "In VBL v VBM, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In VBL v VBM, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none\nB. Because valuation must be assessed as of the ancillary matters date\nC. Because the Court found jurisdictional issues\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay of 14 days and the Applicant's prospects of appeal were between slim and none",
+      "B": "Because valuation must be assessed as of the ancillary matters date",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 177,
+    "question": "In [2025] SGHCF 38, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 38, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the valuation report was accepted by the Court below\nB. Because the appeal lacked merit\nC. Because the respondent objected to disclosure\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the valuation report was accepted by the Court below",
+      "B": "Because the appeal lacked merit",
+      "C": "Because the respondent objected to disclosure",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 178,
+    "question": "In AQL v AQM, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In AQL v AQM, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the appeal lacked merit\nD. Because the application was frivolous or vexatious\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the application was frivolous or vexatious",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 179,
+    "question": "In WOZ v WOY, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WOZ v WOY, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the parties reached an out-of-court settlement\nB. Because the applicant provided a proper accountant's valuation\nC. Because the Court found jurisdictional issues\nD. Because the Judge exercised discretion to refuse leave\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the parties reached an out-of-court settlement",
+      "B": "Because the applicant provided a proper accountant's valuation",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the Judge exercised discretion to refuse leave",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 180,
+    "question": "In [2024] SGHCF 11, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 11, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because there was an unreasonable delay and poor prospects of success\nB. Because the respondent objected to disclosure\nC. Because the appeal lacked merit\nD. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because there was an unreasonable delay and poor prospects of success",
+      "B": "Because the respondent objected to disclosure",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 181,
+    "question": "In [2025] SGHCF 14, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 14, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because his lawyer withdrew from the case unexpectedly\nB. Because the parties reached an out-of-court settlement\nC. Because the Court found jurisdictional issues\nD. Because the parties agreed to mediation\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because his lawyer withdrew from the case unexpectedly",
+      "B": "Because the parties reached an out-of-court settlement",
+      "C": "Because the Court found jurisdictional issues",
+      "D": "Because the parties agreed to mediation",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 182,
+    "question": "In [2025] SGHCF 14, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 14, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the valuation report was accepted by the Court below\nB. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nC. Because the appeal lacked merit\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the valuation report was accepted by the Court below",
+      "B": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "C": "Because the appeal lacked merit",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 183,
+    "question": "In WYQ v Child, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WYQ v Child, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Court found jurisdictional issues\nB. Because of procedural non-compliance\nC. Because the Respondent’s counsel requested more time\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Court found jurisdictional issues",
+      "B": "Because of procedural non-compliance",
+      "C": "Because the Respondent’s counsel requested more time",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 184,
+    "question": "In WYQ v Child, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WYQ v Child, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nB. Because the application was frivolous or vexatious\nC. Because the parties reached an out-of-court settlement\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "B": "Because the application was frivolous or vexatious",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 185,
+    "question": "In [2025] SGHCF 10, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2025] SGHCF 10, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the application was frivolous or vexatious\nB. Because there was an unreasonable delay and poor prospects of success\nC. Whether an extension of time to file an appeal should be allowed\nD. Because the Applicant had already filed through Legal Aid\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the application was frivolous or vexatious",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Whether an extension of time to file an appeal should be allowed",
+      "D": "Because the Applicant had already filed through Legal Aid",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 186,
+    "question": "In WYL v WYK, what was the primary reason the court dismissed the Applicant's request?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WYL v WYK, what was the primary reason the court dismissed the Applicant's request?\n\n**Choices**:\nA. Because the Judge exercised discretion to refuse leave\nB. Because there was an unreasonable delay and poor prospects of success\nC. Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Judge exercised discretion to refuse leave",
+      "B": "Because there was an unreasonable delay and poor prospects of success",
+      "C": "Because the Applicant's prospects of appeal were between slim and none and there was an unreasonable delay",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 187,
+    "question": "In [2024] SGHCF 41, what was the main legal issue in the proceeding?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In [2024] SGHCF 41, what was the main legal issue in the proceeding?\n\n**Choices**:\nA. Because the Applicant failed to prove the claim\nB. Because the parties agreed to mediation\nC. Because the parties reached an out-of-court settlement\nD. Because no attempt was made to file the notice\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Because the Applicant failed to prove the claim",
+      "B": "Because the parties agreed to mediation",
+      "C": "Because the parties reached an out-of-court settlement",
+      "D": "Because no attempt was made to file the notice",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 188,
+    "question": "In WZN v WZM, what order did the court make?",
+    "prompt": "Answer this question with exactly ONLY the letter of the correct answer. \n\n**Question**:\n In WZN v WZM, what order did the court make?\n\n**Choices**:\nA. Dismissed the application and ordered costs to be paid by the Applicant\nB. Because the Applicant had already filed through Legal Aid\nC. Because his lawyer withdrew from the case unexpectedly\nD. Because the parties reached an out-of-court settlement\nE. Unknown\n\n **Answer**:",
+    "choices": {
+      "A": "Dismissed the application and ordered costs to be paid by the Applicant",
+      "B": "Because the Applicant had already filed through Legal Aid",
+      "C": "Because his lawyer withdrew from the case unexpectedly",
+      "D": "Because the parties reached an out-of-court settlement",
+      "E": "Unknown"
+    },
+    "correct_answer": "E"
+  }
+]
